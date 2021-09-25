@@ -35,7 +35,7 @@
 
                 <div class="grid-x grid-padding-x">
                     <div class="cell">
-                        <input type="button" value="Odeslat dotaz" class="button primary shadow radius">
+                        <input type="button" value="Odeslat dotaz" class="button accent shadow radius">
                     </div>
                 </div>
             </div>

@@ -3,15 +3,21 @@
     <div class="top-bar-left">
         <ul class="menu" data-responsive-menu="accordion">
             <li class="menu-text">Zeptejte se studenta</li>
-            <li><a href="#">Úvod</a></li>
-            <li><a href="#">Položit dotaz</a></li>
-            <li><a href="#">Články</a></li>
+            <li><a href="#">
+                <button class="button accent shadow radius">Úvod</button>
+            </a></li>
+            <li><a href="#">
+                <button class="button accent shadow radius">Položit dotaz</button>
+            </a></li>
+            <li><a href="#">
+                <button class="button accent shadow radius">Články</button>
+            </a></li>
         </ul>
     </div>
     <div class="top-bar-right">
         <ul class="menu">
             <li><a href="#">Můj účet</a></li>
-            <li><a class="button">Login</a></li>
+            <li><a class="button accent shadow radius">Login</a></li>
         </ul>
     </div>
 </div>
