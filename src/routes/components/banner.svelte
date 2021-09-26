@@ -1,6 +1,6 @@
 <div class="grid-x banner">
     <div class="cell small-6">
-        <img src="../../static/typek.png" alt="typecek">
+        <img src="../../static/typek2.png" alt="typecek" width="500" height="400">
     </div>
     <div class="cell small-6">
         <h1>

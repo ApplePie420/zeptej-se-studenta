@@ -10,6 +10,18 @@
     padding-top: 2rem;
 }
 
+.custom-card {
+    padding: 1rem;
+    margin: 1rem;
+    background-color: var(--primary-bg);
+}
+
+.card-icon {
+    filter: invert(22%) sepia(20%) saturate(4159%) hue-rotate(330deg) brightness(108%) contrast(91%);
+    width: 64px;
+    height: 64px;
+}
+
 .banner {
     background-color: var(--primary-bg);
 }

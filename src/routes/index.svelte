@@ -22,6 +22,7 @@
     import Navigation from "./components/navigation.svelte"
     import Form from "./components/form.svelte"
     import Banner from "./components/banner.svelte"
+    import Cards from "./components/cards-index.svelte"
 
     export let post;
     console.log(post)
@@ -31,9 +32,17 @@
 
 <div class="banner container">
     <div class="row small-up-1 medium-up-2 large-up-3">
-    <Banner />
+        <Banner />
+    </div>
+</div>
 
-    
+<div class="container">
+    <div class="row small-up-1 medium-up-2 large-up-3">
+        <Cards />
+    </div>
+</div>
+
+
 
         <!-- <Form /> -->
 
@@ -48,5 +57,3 @@
             </div>
         </div>
         {/each} -->
-    </div>
-</div>
