@@ -6,7 +6,7 @@
 			return {
 				props: {
 					post: await res.json()
-				}
+				},
 			};
 		}
 
@@ -18,13 +18,36 @@
 </script>
 
 <script>
+	import { _, setupI18n, isLocaleLoaded, locale } from '../services/i18n';
+
+	import LocaleSelector from "../components/languageSwitcher.svelte";
+
+	$: if (!$isLocaleLoaded) {
+        setupI18n({ withLocale: 'en' });
+    }
+
 	export let post;
 	console.log(post);
 </script>
 
-<h1>yo index</h1>
 
-{#each post.db as article}
+{#if $isLocaleLoaded}
+	<h1>yo index</h1>
+
+	<LocaleSelector value={$locale} on:locale-changed={e => setupI18n({ withLocale: e.detail }) } />
+
+	<p>
+		{$_("ask_question")}
+		<br>
+		{$_("my_account")}
+	</p>
+{:else}
+    <p>Loading...</p>
+{/if}
+
+
+
+<!-- {#each post.db as article}
 	<h2>
 		{article.name}
 	</h2>
@@ -32,4 +55,4 @@
 	<pre>
     {article.text}
 </pre>
-{/each}
+{/each} -->
