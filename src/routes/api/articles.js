@@ -1,9 +1,9 @@
-import {initDB} from "../articles/mysql.js"
+import { initDB } from '../articles/mysql.js';
 
 export async function get(req, res, next) {
-    return {
-        body: {
-            "db": await initDB()
-        }
-    }
+	return {
+		body: {
+			db: await initDB()
+		}
+	};
 }

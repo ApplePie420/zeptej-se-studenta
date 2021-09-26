@@ -2,7 +2,7 @@ import { initDB } from 'mysql.js';
 
 export function get(req, res) {
 	const { db } = initDB();
-    console.log("database init");
+	console.log('database init');
 	db.query(`SELECT * FROM articles;`, (err, results, fields) => {
 		if (err) throw err;
 		res.writeHead(200, {
@@ -10,5 +10,4 @@ export function get(req, res) {
 		});
 		res.end(JSON.stringify(results));
 	});
-
 }
