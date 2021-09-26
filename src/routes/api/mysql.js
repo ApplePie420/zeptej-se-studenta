@@ -1,10 +1,10 @@
 import mysql from 'mysql2';
 
 const con = mysql.createConnection({
-	host: 'localhost',
-	user: 'js',
-	password: '123456',
-	database: 'js_learning'
+    host: import.meta.env.VITE_DB_HOST,
+    user: import.meta.env.VITE_DB_USER,
+    // password: process.env.DB_PASSWORD,
+    database: import.meta.env.VITE_DB_DATABASE
 });
 
 export async function initDB() {

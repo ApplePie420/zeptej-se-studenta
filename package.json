@@ -20,9 +20,9 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"dotenv": "^10.0.0",
 		"mysql": "^2.18.1",
 		"mysql2": "^2.3.0",
-		"polka": "^0.5.2"
+		"polka": "^0.5.2",
+		"svelte-i18n": "^3.3.10"
 	}
 }
