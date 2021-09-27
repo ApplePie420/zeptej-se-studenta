@@ -3,7 +3,7 @@ import mysql from 'mysql2';
 const con = mysql.createConnection({
     host: import.meta.env.VITE_DB_HOST,
     user: import.meta.env.VITE_DB_USER,
-    // password: process.env.DB_PASSWORD,
+    password: import.meta.env.VITE_DB_PASSWORD,
     database: import.meta.env.VITE_DB_DATABASE
 });
 

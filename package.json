@@ -7,7 +7,7 @@
 		"preview": "svelte-kit preview",
 		"lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
 		"format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. .",
-		"createDatabase": "node -r dotenv/config ./db/create_tables.cjs"
+		"createDatabase": "node ./db/create_tables.cjs"
 	},
 	"devDependencies": {
 		"@sveltejs/kit": "next",

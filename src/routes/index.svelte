@@ -26,8 +26,8 @@
         setupI18n({ withLocale: 'en' });
     }
 
-	export let post;
-	console.log(post);
+	// export let post;
+	// console.log(post);
 </script>
 
 
