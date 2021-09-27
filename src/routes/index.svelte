@@ -35,39 +35,35 @@
 
 
 {#if $isLocaleLoaded}
-	<h1>yo index</h1>
-
 	<LocaleSelector value={$locale} on:locale-changed={e => setupI18n({ withLocale: e.detail }) } />
 
-		<Navigation />
+	<Navigation />
 
-<div class="banner container">
-    <div class="row small-up-1 medium-up-2 large-up-3">
-        <Banner />
-    </div>
-</div>
+	<div class="banner container">
+		<div class="row small-up-1 medium-up-2 large-up-3">
+			<Banner />
+		</div>
+	</div>
 
-<div class="container">
-    <div class="row small-up-1 medium-up-2 large-up-3">
-        <Cards />
-    </div>
-</div>
+	<div class="container">
+		<div class="row small-up-1 medium-up-2 large-up-3">
+			<Cards />
+		</div>
+	</div>
 
+	<!-- <Form /> -->
 
+	<!-- {#each post.db as article}
+	<div class="card radius shadow">
+		<div class="card-divider">
+			<b>{article.name}</b>
+		</div>
 
-        <!-- <Form /> -->
-
-        <!-- {#each post.db as article}
-        <div class="card radius shadow">
-            <div class="card-divider">
-                <b>{article.name}</b>
-            </div>
-
-            <div class="card-section">
-                {article.text}
-            </div>
-        </div>
-        {/each} -->
+		<div class="card-section">
+			{article.text}
+		</div>
+	</div>
+	{/each} -->
 
 	<p>
 		{$_("ask_question")}
@@ -75,9 +71,5 @@
 		{$_("my_account")}
 	</p>
 {:else}
-    <p>Loading...</p>
+    <p>Loading locales...</p>
 {/if}
-
-<h1>
-	index
-</h1>
