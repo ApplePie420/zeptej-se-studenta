@@ -21,13 +21,16 @@
 	import { _, setupI18n, isLocaleLoaded, locale } from '../services/i18n';
 
 	import LocaleSelector from "../components/languageSwitcher.svelte";
+	import Navigation from "./components/navigation.svelte"
+    import Form from "./components/form.svelte"
+    import Banner from "./components/banner.svelte"
+    import Cards from "./components/cards-index.svelte"
 
 	$: if (!$isLocaleLoaded) {
         setupI18n({ withLocale: 'en' });
     }
 
-	// export let post;
-	// console.log(post);
+	export let post;
 </script>
 
 
@@ -35,6 +38,36 @@
 	<h1>yo index</h1>
 
 	<LocaleSelector value={$locale} on:locale-changed={e => setupI18n({ withLocale: e.detail }) } />
+
+		<Navigation />
+
+<div class="banner container">
+    <div class="row small-up-1 medium-up-2 large-up-3">
+        <Banner />
+    </div>
+</div>
+
+<div class="container">
+    <div class="row small-up-1 medium-up-2 large-up-3">
+        <Cards />
+    </div>
+</div>
+
+
+
+        <!-- <Form /> -->
+
+        <!-- {#each post.db as article}
+        <div class="card radius shadow">
+            <div class="card-divider">
+                <b>{article.name}</b>
+            </div>
+
+            <div class="card-section">
+                {article.text}
+            </div>
+        </div>
+        {/each} -->
 
 	<p>
 		{$_("ask_question")}
@@ -48,15 +81,3 @@
 <h1>
 	index
 </h1>
-
-
-
-<!-- {#each post.db as article}
-	<h2>
-		{article.name}
-	</h2>
-
-	<pre>
-    {article.text}
-</pre>
-{/each} -->
