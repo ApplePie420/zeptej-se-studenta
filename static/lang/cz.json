@@ -1,27 +1,27 @@
 {
-  "general": {
-    "ask_question": "Zeptat se otázku",
-    "title": "Zeptejte se Studenta"
-  },
-  "menu": {
-    "index": "Úvod",
-    "articles": "Články",
-    "my_account": "Můj účet",
-    "log_in": "Přihlásit se",
-    "contact": "Kontakt"
-  },
-  "banner": {
-    "second_heading": "Druhý nadpis",
-    "description": "Popis projektu"
-  },
-  "cards_categories": {
-    "family": "Rodina",
-    "contracts": "Smlouvy", 
-    "property": "Nemovitosti",
-    "neighbourhood": "Sousedství",
-    "work": "Pracovněprávní vztahy",
-    "law": "Trestní právo",
-    "responsibility": "Právni odpovědnost",
-    "placeholder": "Placeholder"
-  }
+	"general": {
+		"ask_question": "Zeptat se otázku",
+		"title": "Zeptejte se Studenta"
+	},
+	"menu": {
+		"index": "Úvod",
+		"articles": "Články",
+		"my_account": "Můj účet",
+		"log_in": "Přihlásit se",
+		"contact": "Kontakt"
+	},
+	"banner": {
+		"second_heading": "Druhý nadpis",
+		"description": "Popis projektu"
+	},
+	"cards_categories": {
+		"family": "Rodina",
+		"contracts": "Smlouvy",
+		"property": "Nemovitosti",
+		"neighbourhood": "Sousedství",
+		"work": "Pracovněprávní vztahy",
+		"law": "Trestní právo",
+		"responsibility": "Právni odpovědnost",
+		"placeholder": "Placeholder"
+	}
 }

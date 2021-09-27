@@ -6,7 +6,7 @@
 			return {
 				props: {
 					post: await res.json()
-				},
+				}
 			};
 		}
 
@@ -20,17 +20,15 @@
 <script>
 	import { _, setupI18n, isLocaleLoaded, locale } from '../services/i18n';
 
-	import LocaleSelector from "../components/languageSwitcher.svelte";
-	import Navigation from "./components/navigation.svelte"
-    import Form from "./components/form.svelte"
-    import Banner from "./components/banner.svelte"
-    import Cards from "./components/cards-index.svelte"
+	import Navigation from './components/navigation.svelte';
+	import Banner from './components/banner.svelte';
+	import Cards from './components/cards-index.svelte';
 
 	export let post;
 
 	$: if (!$isLocaleLoaded) {
-        setupI18n({ withLocale: 'cz' });
-    }
+		setupI18n({ withLocale: 'cz' });
+	}
 </script>
 
 {#if $isLocaleLoaded}
@@ -48,19 +46,6 @@
 		</div>
 	</div>
 
-	<!-- <Form /> -->
-
-	<!-- {#each post.db as article}
-	<div class="card radius shadow">
-		<div class="card-divider">
-			<b>{article.name}</b>
-		</div>
-
-		<div class="card-section">
-			{article.text}
-		</div>
-	</div>
-	{/each} -->
 {:else}
-    <p>Loading...</p>
+	<p>Loading...</p>
 {/if}

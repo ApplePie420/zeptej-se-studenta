@@ -1,27 +1,27 @@
 {
-  "general": {
-    "ask_question": "Ask a question",
-    "title": "Ask a Student"
-  },
-  "menu": {
-    "index": "Index",
-    "articles": "Articles",
-    "my_account": "My account",
-    "log_in": "Log in",
-    "contact": "Contact"
-  },
-  "banner": {
-    "second_heading": "Secondary heading placeholder",
-    "description": "Project description placeholder"
-  },
-  "cards_categories": {
-    "family": "Family",
-    "contracts": "Contracts", 
-    "property": "Real estate",
-    "neighbourhood": "Neighbourhood",
-    "work": "Work contracts",
-    "law": "Law enforcement",
-    "responsibility": "Legal liability",
-    "placeholder": "Placeholder"
-  }
+	"general": {
+		"ask_question": "Ask a question",
+		"title": "Ask a Student"
+	},
+	"menu": {
+		"index": "Index",
+		"articles": "Articles",
+		"my_account": "My account",
+		"log_in": "Log in",
+		"contact": "Contact"
+	},
+	"banner": {
+		"second_heading": "Secondary heading placeholder",
+		"description": "Project description placeholder"
+	},
+	"cards_categories": {
+		"family": "Family",
+		"contracts": "Contracts",
+		"property": "Real estate",
+		"neighbourhood": "Neighbourhood",
+		"work": "Work contracts",
+		"law": "Law enforcement",
+		"responsibility": "Legal liability",
+		"placeholder": "Placeholder"
+	}
 }
