@@ -6,12 +6,12 @@
 <div class="top-bar" id="realEstateMenu">
     <div class="top-bar-left">
         <ul class="menu" data-responsive-menu="accordion">
-            <li class="menu-text">Zeptejte se Studenta</li>
+            <li class="menu-text">{$_("general.title")}</li>
             <li><a href="#">
                 <button class="button accent shadow radius">{$_("menu.index")}</button>
             </a></li>
             <li><a href="#">
-                <button class="button accent shadow radius">{$_("menu.ask_question")}</button>
+                <button class="button accent shadow radius">{$_("general.ask_question")}</button>
             </a></li>
             <li><a href="#">
                 <button class="button accent shadow radius">{$_("menu.articles")}</button>

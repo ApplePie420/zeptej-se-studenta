@@ -11,8 +11,8 @@
 <div class="locale-selector">
     <div class="select">
         <select value={value} on:change={handleLocaleChange}>
-            <option value="en">EN</option>
-            <option value="cz">CZ</option>
+            <option value="en">🇬🇧 EN</option>
+            <option value="cz">🇨🇿 CZ</option>
         </select>
     </div>
 </div>

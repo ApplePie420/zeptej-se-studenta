@@ -64,12 +64,6 @@
 		</div>
 	</div>
 	{/each} -->
-
-	<p>
-		{$_("menu.ask_question")}
-		<br>
-		{$_('menu.my_account')}
-	</p>
 {:else}
-    <p>asd</p>
+    <p>Loading...</p>
 {/if}
