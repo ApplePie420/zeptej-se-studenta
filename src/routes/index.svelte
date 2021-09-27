@@ -26,17 +26,14 @@
     import Banner from "./components/banner.svelte"
     import Cards from "./components/cards-index.svelte"
 
-	$: if (!$isLocaleLoaded) {
-        setupI18n({ withLocale: 'en' });
-    }
-
 	export let post;
+
+	$: if (!$isLocaleLoaded) {
+        setupI18n({ withLocale: 'cz' });
+    }
 </script>
 
-
 {#if $isLocaleLoaded}
-	<LocaleSelector value={$locale} on:locale-changed={e => setupI18n({ withLocale: e.detail }) } />
-
 	<Navigation />
 
 	<div class="banner container">

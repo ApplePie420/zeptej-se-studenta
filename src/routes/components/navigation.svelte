@@ -1,5 +1,9 @@
 <script>
-    import { _ } from "../../services/i18n"
+    import { _, setupI18n, isLocaleLoaded, locale } from '../../services/i18n';
+
+    import LocaleSelector from "../../components/languageSwitcher.svelte"
+
+    
 </script>
 
 <!-- Navigation -->
@@ -20,6 +24,8 @@
     </div>
     <div class="top-bar-right">
         <ul class="menu">
+            <LocaleSelector value={$locale} on:locale-changed={e => setupI18n({ withLocale: e.detail }) } />
+
             <li><a href="#">{$_("menu.my_account")}</a></li>
             <li><a class="button accent shadow radius">{$_("menu.log_in")}</a></li>
         </ul>

@@ -10,6 +10,27 @@
     padding-top: 2rem;
 }
 
+.localeSelector {
+    background-color: var(--primary);
+    border: 1px solid var(--accent);
+}
+
+.localeSelector option {
+    background-color: var(--primary);
+    border: 1px solid var(--accent);
+}
+
+.localeSelector:active, option:active {
+    background-color: var(--primary);
+    border: 1px solid var(--accent);
+}
+
+.localeSelector:focus, option:focus {
+    background-color: var(--primary);
+    border: 1px solid var(--accent);
+}
+
+
 .custom-card {
     padding: 1rem;
     margin: 1rem;
