@@ -1,7 +1,10 @@
 {
+  "menu": {
     "index": "Index",
-    "contact": "Contact",
     "ask_question": "Ask a question",
+    "articles": "Articles",
     "my_account": "My account",
-    "log_in": "Log in"
+    "log_in": "Log in",
+    "contact": "Contact"
+  }
 }

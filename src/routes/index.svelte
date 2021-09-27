@@ -66,10 +66,10 @@
 	{/each} -->
 
 	<p>
-		{$_("ask_question")}
+		{$_("menu.ask_question")}
 		<br>
-		{$_("my_account")}
+		{$_('menu.my_account')}
 	</p>
 {:else}
-    <p>Loading locales...</p>
+    <p>asd</p>
 {/if}

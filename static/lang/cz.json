@@ -1,7 +1,10 @@
 {
+  "menu": {
     "index": "Úvod",
     "contact": "Kontakt",
     "ask_question": "Položit otázku",
     "my_account": "Můj účet",
-    "log_in": "Přihlásit se"
+    "log_in": "Přihlásit se",
+    "articles": "Články"
+  }
 }
