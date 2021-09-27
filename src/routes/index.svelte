@@ -45,6 +45,10 @@
     <p>Loading...</p>
 {/if}
 
+<h1>
+	index
+</h1>
+
 
 
 <!-- {#each post.db as article}
