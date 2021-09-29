@@ -10,18 +10,23 @@
 		<ul class="menu" data-responsive-menu="accordion">
 			<li class="menu-text">{$_('general.title')}</li>
 			<li>
-				<a href="#">
+				<a href="/">
 					<button class="button accent shadow radius">{$_('menu.index')}</button>
 				</a>
 			</li>
 			<li>
-				<a href="#">
+				<a href="/ask">
 					<button class="button accent shadow radius">{$_('general.ask_question')}</button>
 				</a>
 			</li>
 			<li>
-				<a href="#">
+				<a href="/articles">
 					<button class="button accent shadow radius">{$_('menu.articles')}</button>
+				</a>
+			</li>
+			<li>
+				<a href="/questions">
+					<button class="button accent shadow radius">{$_('menu.questions')}</button>
 				</a>
 			</li>
 		</ul>

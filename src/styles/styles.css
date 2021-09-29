@@ -6,7 +6,8 @@
 	--secondary-bg: hsl(0, 0%, 94%);
 }
 
-.custom-card .main-text, .hover-text {
+.custom-card .main-text,
+.hover-text {
 	overflow: hidden;
 	transition: 300ms ease;
 	display: inline-block;
@@ -112,4 +113,9 @@ body {
 	/* background-image: url("../../static/background-tile.png"); */
 	background-color: var(--secondary-bg);
 	background-size: 128px 128px;
+}
+
+.qCard-footer {
+	font-size: 0.8rem;
+	color: #aaa;
 }

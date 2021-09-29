@@ -17,7 +17,7 @@
 			{$_('banner.description')}
 		</h4>
 
-		<a href="/dotaz">
+		<a href="/ask">
 			<button class="button accent shadow radius large">
 				{$_('general.ask_question')}
 			</button>

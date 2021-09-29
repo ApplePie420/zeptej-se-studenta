@@ -1,6 +1,6 @@
 import { initDB } from './mysql.js';
 
-export async function get(req, res, next) {
+export async function get() {
 	return {
 		body: {
 			db: await initDB()
