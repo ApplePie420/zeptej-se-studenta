@@ -23,5 +23,15 @@
 		"law": "Trestní právo",
 		"responsibility": "Právni odpovědnost",
 		"placeholder": "Placeholder"
+	},
+	"cards_description": {
+		"family": "Rodinné právo upravuje osobní a majetkové vztahy mezi členy rodiny",
+		"contracts": "Jaké jsou náležitosti jednotlivých druhů smluv a jaké práva a povinnosti z nich plynou?",
+		"property": "Ať už zvažujete prodej, koupi, pronájem nebo zřízení věcného břemene",
+		"neighbourhood": "Soused, se kterým nejste zadobře může být opravdový trn v oku.",
+		"work": "Jaké práva a povinnosti vznikají na straně zaměstnance a jaké na straně zaměstnavatele?",
+		"law": "Trestní právo je jedním z největších právních odvětví s bohatou historií. ",
+		"responsibility": "Určení právní odpovědnosti představuje zřejmě nejpodstatnější otázku.",
+		"placeholder": "Placeholder"
 	}
 }

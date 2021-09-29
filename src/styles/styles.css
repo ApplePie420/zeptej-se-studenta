@@ -6,6 +6,37 @@
 	--secondary-bg: hsl(0, 0%, 94%);
 }
 
+.custom-card .main-text, .hover-text {
+	overflow: hidden;
+	transition: 300ms ease;
+	display: inline-block;
+	position: absolute;
+}
+
+.custom-card .main-text {
+	visibility: visible;
+	opacity: 1;
+}
+
+.custom-card .hover-text {
+	width: 15rem;
+	word-break: break-word;
+	visibility: hidden;
+	opacity: 0;
+}
+
+.custom-card:hover .hover-text {
+	opacity: 1;
+	visibility: visible;
+	width: 15rem;
+	word-break: break-word;
+}
+
+.custom-card:hover .main-text {
+	visibility: hidden;
+	opacity: 0;
+}
+
 .container {
 	padding-top: 2rem;
 }
@@ -36,6 +67,7 @@ option:focus {
 	padding: 1rem;
 	margin: 1rem;
 	background-color: var(--primary-bg);
+	height: 6rem;
 }
 
 .card-icon {

@@ -19,9 +19,19 @@
 		"contracts": "Contracts",
 		"property": "Real estate",
 		"neighbourhood": "Neighbourhood",
-		"work": "Work contracts",
-		"law": "Law enforcement",
+		"work": "Employment relationship",
+		"law": "Criminal law",
 		"responsibility": "Legal liability",
+		"placeholder": "Placeholder"
+	},
+	"cards_description": {
+		"family": "Family law regulates personal and property relations between family members.",
+		"contracts": "What are the requisities of indidvidual types of contracts and what rights and obligations are derived from them?",
+		"property": "If you are considering selling, buying, lending or establishing a material burden.",
+		"neighbourhood": "An unfriendly neighbour might be a thorn in your flesh.",
+		"work": "Do you presume there is a breach of contract or that someone is abusing their position?",
+		"law": "Criminial law i sone of the biggest fields of law with a rich history.",
+		"responsibility": "The determination of legal responsibility is probably one of the most important questions.",
 		"placeholder": "Placeholder"
 	}
 }
