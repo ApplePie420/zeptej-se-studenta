@@ -1,7 +1,6 @@
 <script>
     export let question;
     export let date;
-    export let author;
 
     date = new Date(date).toISOString().substring(0, 10);
 </script>
