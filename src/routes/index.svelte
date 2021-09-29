@@ -45,7 +45,6 @@
 			<Cards />
 		</div>
 	</div>
-
 {:else}
 	<p>Loading...</p>
 {/if}

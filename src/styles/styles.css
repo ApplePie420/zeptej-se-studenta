@@ -6,7 +6,8 @@
 	--secondary-bg: hsl(0, 0%, 94%);
 }
 
-.custom-card .main-text, .hover-text {
+.custom-card .main-text,
+.hover-text {
 	overflow: hidden;
 	transition: 300ms ease;
 	display: inline-block;

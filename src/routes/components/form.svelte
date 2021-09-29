@@ -28,7 +28,11 @@
 					<div class="cell">
 						<label>
 							Váš dotaz
-							<textarea class="question-ta radius" placeholder="Sem napište váš dotaz studentovi" name="question" />
+							<textarea
+								class="question-ta radius"
+								placeholder="Sem napište váš dotaz studentovi"
+								name="question"
+							/>
 						</label>
 					</div>
 				</div>

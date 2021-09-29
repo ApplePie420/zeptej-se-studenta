@@ -27,9 +27,16 @@ export async function initDB() {
 
 export async function insertQuestionIntoDatabase(data) {
 	let date = new Date();
-	
-	var result = await con.promise().query('INSERT INTO questions (question, author, email, created_at) VALUES (?,?,?,?)', [data.question, data.author, data.email, date])
-	
+
+	var result = await con
+		.promise()
+		.query('INSERT INTO questions (question, author, email, created_at) VALUES (?,?,?,?)', [
+			data.question,
+			data.author,
+			data.email,
+			date
+		]);
+
 	return result;
 }
 

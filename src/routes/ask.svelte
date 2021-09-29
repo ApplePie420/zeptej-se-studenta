@@ -1,9 +1,9 @@
 <script>
-    import { _, setupI18n, isLocaleLoaded, locale } from '../services/i18n';
-    import Navigation from './components/navigation.svelte';
-    import Form from './components/form.svelte';
+	import { _, setupI18n, isLocaleLoaded, locale } from '../services/i18n';
+	import Navigation from './components/navigation.svelte';
+	import Form from './components/form.svelte';
 
-    $: if (!$isLocaleLoaded) {
+	$: if (!$isLocaleLoaded) {
 		setupI18n({ withLocale: 'cz' });
 	}
 </script>
@@ -12,8 +12,8 @@
 	<Navigation />
 
 	<div class="container">
-        <Form />
-    </div>
+		<Form />
+	</div>
 {:else}
 	<p>Loading...</p>
 {/if}

@@ -10,7 +10,7 @@
 				{$_('cards_categories.property')}
 			</div>
 			<div class="hover-text">
-				{$_('cards_description.property')}				
+				{$_('cards_description.property')}
 			</div>
 		</div>
 	</div>
@@ -22,7 +22,7 @@
 				{$_('cards_categories.family')}
 			</div>
 			<div class="hover-text">
-				{$_('cards_description.family')}				
+				{$_('cards_description.family')}
 			</div>
 		</div>
 	</div>
@@ -34,7 +34,7 @@
 				{$_('cards_categories.law')}
 			</div>
 			<div class="hover-text">
-				{$_('cards_description.law')}				
+				{$_('cards_description.law')}
 			</div>
 		</div>
 	</div>
@@ -46,7 +46,7 @@
 				{$_('cards_categories.work')}
 			</div>
 			<div class="hover-text">
-				{$_('cards_description.work')}				
+				{$_('cards_description.work')}
 			</div>
 		</div>
 	</div>
@@ -58,7 +58,7 @@
 				{$_('cards_categories.contracts')}
 			</div>
 			<div class="hover-text">
-				{$_('cards_description.contracts')}				
+				{$_('cards_description.contracts')}
 			</div>
 		</div>
 	</div>
@@ -70,7 +70,7 @@
 				{$_('cards_categories.neighbourhood')}
 			</div>
 			<div class="hover-text">
-				{$_('cards_description.neighbourhood')}				
+				{$_('cards_description.neighbourhood')}
 			</div>
 		</div>
 	</div>
@@ -82,7 +82,7 @@
 				{$_('cards_categories.responsibility')}
 			</div>
 			<div class="hover-text">
-				{$_('cards_description.responsibility')}				
+				{$_('cards_description.responsibility')}
 			</div>
 		</div>
 	</div>
@@ -94,7 +94,7 @@
 				{$_('cards_categories.placeholder')}
 			</div>
 			<div class="hover-text">
-				{$_('cards_description.placeholder')}				
+				{$_('cards_description.placeholder')}
 			</div>
 		</div>
 	</div>
