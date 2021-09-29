@@ -1,0 +1,46 @@
+<script context="module">
+	export async function load({page, fetch, session, stuff}) {
+        const url = "/api/questions";
+        const res = await fetch(url, session);
+        if(res.ok) {
+            return {
+                props: {
+                    questions: await res.json()
+                }
+            };
+        }
+        return { 
+            status: res.status,
+            error: new Error("could not load")
+        }
+	}
+</script>
+
+<script>
+    import { _, setupI18n, isLocaleLoaded, locale } from '../services/i18n';
+
+    import Navigation from './components/navigation.svelte';
+    import QuestionCard from './components/questionCard.svelte';
+
+    $: if (!$isLocaleLoaded) {
+		setupI18n({ withLocale: 'cz' });
+	}
+
+    export let questions;
+    
+    console.log(questions.res[0].author);
+</script>
+
+{#if $isLocaleLoaded}
+	<Navigation />
+
+	<div class="container">
+        <div class="grid-x">
+            {#each questions.res as {author, question, created_at}}
+                <QuestionCard question={question} author={author} date={created_at} />
+            {/each}
+        </div>
+    </div>
+{:else}
+	<p>Loading...</p>
+{/if}

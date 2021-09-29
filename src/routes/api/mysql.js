@@ -32,3 +32,9 @@ export async function insertQuestionIntoDatabase(data) {
 	
 	return result;
 }
+
+export async function getQuestions() {
+	var SQL = 'SELECT * FROM questions';
+	const result = await con.promise().query(SQL);
+	return result[0];
+}
