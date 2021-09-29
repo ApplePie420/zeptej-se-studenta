@@ -6,7 +6,7 @@
 	</div>
 
 	<div class="card-section">
-		<form>
+		<form action="/api/newQuestion" method="post">
 			<div class="grid-container">
 				<div class="grid-x grid-padding-x">
 					<div class="medium-6 cell">
@@ -19,7 +19,7 @@
 					<div class="medium-6 cell">
 						<label>
 							Jméno
-							<input type="text" name="meno" placeholder="Jan Novák" class="radius" />
+							<input type="text" name="author" placeholder="Jan Novák" class="radius" />
 						</label>
 					</div>
 				</div>
@@ -28,14 +28,14 @@
 					<div class="cell">
 						<label>
 							Váš dotaz
-							<textarea class="question-ta radius" placeholder="Sem napište váš dotaz studentovi" />
+							<textarea class="question-ta radius" placeholder="Sem napište váš dotaz studentovi" name="question" />
 						</label>
 					</div>
 				</div>
 
 				<div class="grid-x grid-padding-x">
 					<div class="cell">
-						<input type="button" value="Odeslat dotaz" class="button accent shadow radius" />
+						<input type="submit" value="Odeslat dotaz" class="button accent shadow radius" />
 					</div>
 				</div>
 			</div>
