@@ -34,7 +34,7 @@
 {#if $isLocaleLoaded}
 	<Navigation />
 
-	<div class="container">
+	<div class="container row">
         <div class="grid-x">
             {#each questions.res as {author, question, created_at}}
                 <QuestionCard question={question} author={author} date={created_at} />

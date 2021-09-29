@@ -113,3 +113,8 @@ body {
 	background-color: var(--secondary-bg);
 	background-size: 128px 128px;
 }
+
+.qCard-footer {
+	font-size: 0.8rem;
+	color: #aaa;
+}
