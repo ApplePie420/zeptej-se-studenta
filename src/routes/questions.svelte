@@ -17,10 +17,10 @@
 </script>
 
 <script>
-	import { _, setupI18n, isLocaleLoaded, locale } from '../services/i18n';
+	import { _, setupI18n, isLocaleLoaded, locale } from '$lib/i18n.js';
 
-	import Navigation from './components/navigation.svelte';
-	import QuestionCard from './components/questionCard.svelte';
+	import Navigation from '../components/navigation.svelte';
+	import QuestionCard from '../components/questionCard.svelte';
 
 	$: if (!$isLocaleLoaded) {
 		setupI18n({ withLocale: 'cz' });
@@ -28,7 +28,6 @@
 
 	export let questions;
 
-	console.log(questions.res[0].author);
 </script>
 
 {#if $isLocaleLoaded}

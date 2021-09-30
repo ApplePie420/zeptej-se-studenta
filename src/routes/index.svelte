@@ -18,11 +18,11 @@
 </script>
 
 <script>
-	import { _, setupI18n, isLocaleLoaded, locale } from '../services/i18n';
+	import { _, setupI18n, isLocaleLoaded, locale } from '$lib/i18n';
 
-	import Navigation from './components/navigation.svelte';
-	import Banner from './components/banner.svelte';
-	import Cards from './components/cards-index.svelte';
+	import Navigation from '../components/navigation.svelte';
+	import Banner from '../components/banner.svelte';
+	import Cards from '../components/cards-index.svelte';
 
 	export let post;
 

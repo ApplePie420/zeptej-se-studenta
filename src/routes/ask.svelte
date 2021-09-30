@@ -1,7 +1,7 @@
 <script>
-	import { _, setupI18n, isLocaleLoaded, locale } from '../services/i18n';
-	import Navigation from './components/navigation.svelte';
-	import Form from './components/form.svelte';
+	import { _, setupI18n, isLocaleLoaded, locale } from '$lib/i18n';
+	import Navigation from '../components/navigation.svelte';
+	import Form from '../components/form.svelte';
 
 	$: if (!$isLocaleLoaded) {
 		setupI18n({ withLocale: 'cz' });

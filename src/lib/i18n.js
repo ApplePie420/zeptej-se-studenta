@@ -3,11 +3,11 @@ import { dictionary, locale, _ } from 'svelte-i18n';
 
 const MESSAGE_FILE_URL_TEMPLATE = 'http://localhost:3000/lang/{locale}.json';
 
+// eslint-disable-next-line no-unused-vars
 let cachedLocale;
 
 async function setupI18n({ withLocale: _locale } = { withLocale: 'en' }) {
 	const messsagesFileUrl = MESSAGE_FILE_URL_TEMPLATE.replace('{locale}', _locale);
-	console.log(messsagesFileUrl);
 
 	return await fetch(messsagesFileUrl)
 		.then((response) => response.json())

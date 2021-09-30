@@ -1,5 +1,5 @@
 <script>
-	import { _, setupI18n, isLocaleLoaded, locale } from '../../services/i18n';
+	import { _, setupI18n, isLocaleLoaded, locale } from '$lib/i18n';
 
 	import LocaleSelector from './languageSwitcher.svelte';
 </script>
@@ -38,8 +38,8 @@
 				on:locale-changed={(e) => setupI18n({ withLocale: e.detail })}
 			/>
 
-			<li><a href="#">{$_('menu.my_account')}</a></li>
-			<li><a class="button accent shadow radius">{$_('menu.log_in')}</a></li>
+			<li><a href="/account">{$_('menu.my_account')}</a></li>
+			<li><a href="/login" class="button accent shadow radius">{$_('menu.log_in')}</a></li>
 		</ul>
 	</div>
 </div>

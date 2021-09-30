@@ -1,10 +1,10 @@
 <script>
-	import { _ } from '../../services/i18n';
+	import { _ } from "$lib/i18n.js"
 </script>
 
 <div class="grid-x banner">
 	<div class="cell small-6">
-		<img src="../../static/typek2.png" alt="typecek" width="500" height="400" />
+		<img src="/typek2.png" alt="typecek" width="500" height="400" />
 	</div>
 	<div class="cell small-6">
 		<h1>

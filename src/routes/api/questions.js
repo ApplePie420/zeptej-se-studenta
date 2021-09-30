@@ -1,4 +1,4 @@
-import { getQuestions } from './mysql.js';
+import { getQuestions } from '$lib/mysql.js';
 
 export async function get() {
 	return {

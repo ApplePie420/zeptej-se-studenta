@@ -1,4 +1,4 @@
-import { initDB } from './mysql.js';
+import { initDB } from '$lib/mysql.js';
 
 export async function get() {
 	return {
