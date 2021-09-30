@@ -11,5 +11,13 @@ module.exports = {
 		browser: true,
 		es2017: true,
 		node: true
+	},
+	rules: {
+		'no-empty-function': 'error',
+		'comma-spacing': 'error',
+		'line-comment-position': ['error', 'above'],
+		'multiline-comment-style': ['error', 'starred-block'],
+		'no-trailing-spaces': 'error',
+		'eol-last': ['error', 'always']
 	}
 };

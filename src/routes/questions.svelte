@@ -27,7 +27,6 @@
 	}
 
 	export let questions;
-
 </script>
 
 {#if $isLocaleLoaded}

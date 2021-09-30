@@ -1,9 +1,10 @@
 # Development
+
 ## Running the environment
 
-First, you need to create a database. You can choose any name you want. Next, specify the MySQL host URI, user name, password and database name in `.env` file. 
+First, you need to create a database. You can choose any name you want. Next, specify the MySQL host URI, user name, password and database name in `.env` file.
 
-After the datbase is created, you can use the files in `/db` folder to paste the SQL queries into your database to create tables needed. 
+After the datbase is created, you can use the files in `/db` folder to paste the SQL queries into your database to create tables needed.
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 

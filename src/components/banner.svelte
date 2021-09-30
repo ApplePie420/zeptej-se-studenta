@@ -1,5 +1,5 @@
 <script>
-	import { _ } from "$lib/i18n.js"
+	import { _ } from '$lib/i18n.js';
 </script>
 
 <div class="grid-x banner">

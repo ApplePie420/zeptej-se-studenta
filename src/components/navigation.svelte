@@ -16,7 +16,8 @@
 			</li>
 			<li>
 				<a href="/ask">
-					<button class="button accent shadow radius">{$_('general.ask_question')}</button>
+					<button class="button accent shadow radius">{$_('general.ask_question')}</button
+					>
 				</a>
 			</li>
 			<li>

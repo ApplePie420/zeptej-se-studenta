@@ -12,14 +12,24 @@
 					<div class="medium-6 cell">
 						<label>
 							E-Mail
-							<input type="email" name="email" placeholder="vas@email.com" class="radius" />
+							<input
+								type="email"
+								name="email"
+								placeholder="vas@email.com"
+								class="radius"
+							/>
 						</label>
 					</div>
 
 					<div class="medium-6 cell">
 						<label>
 							Jméno
-							<input type="text" name="author" placeholder="Jan Novák" class="radius" />
+							<input
+								type="text"
+								name="author"
+								placeholder="Jan Novák"
+								class="radius"
+							/>
 						</label>
 					</div>
 				</div>
@@ -39,7 +49,11 @@
 
 				<div class="grid-x grid-padding-x">
 					<div class="cell">
-						<input type="submit" value="Odeslat dotaz" class="button accent shadow radius" />
+						<input
+							type="submit"
+							value="Odeslat dotaz"
+							class="button accent shadow radius"
+						/>
 					</div>
 				</div>
 			</div>
