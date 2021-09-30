@@ -1,7 +1,7 @@
 <script>
 	import { _, setupI18n, isLocaleLoaded, locale } from '../../services/i18n';
 
-	import LocaleSelector from '../../components/languageSwitcher.svelte';
+	import LocaleSelector from './languageSwitcher.svelte';
 </script>
 
 <!-- Navigation -->
