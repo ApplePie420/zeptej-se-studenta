@@ -1,4 +1,4 @@
-import { insertQuestionIntoDatabase } from '$lib/mysql.js.js';
+import { insertQuestionIntoDatabase } from '$lib/mysql';
 
 export async function post(req) {
 	let data = {
