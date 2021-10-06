@@ -119,3 +119,21 @@ body {
 	font-size: 0.8rem;
 	color: #aaa;
 }
+
+.qCard-answer {
+	padding-left: 5rem;
+}
+
+.qCard-answer pre {
+	border: 1px solid var(--secondary-bg);
+	padding: 1rem;
+}
+
+.answerAuthor {
+	font-size: smaller;
+}
+
+.notAnswered {
+	color: red;
+	text-decoration: underline;
+}

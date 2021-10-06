@@ -34,8 +34,8 @@
 
 	<div class="container row">
 		<div class="grid-x">
-			{#each questions.res as { author, question, created_at }}
-				<QuestionCard {question} {author} date={created_at} />
+			{#each questions.res as { author, question, created_at, answer, ID }}
+				<QuestionCard {question} {author} {answer} ID={ID} date={created_at} />
 			{/each}
 		</div>
 	</div>
