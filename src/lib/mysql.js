@@ -42,20 +42,21 @@ export async function insertQuestionIntoDatabase(data) {
 
 export async function getQuestions() {
 	var SQL = 'SELECT * FROM questions LEFT JOIN answers ON answers.questionID = questions.ID';
-	
+
 	const result = await con.promise().query(SQL);
-	console.log(result[0]);
 	return result[0];
 }
 
 export async function answerQuestion(data) {
 	let date = new Date();
 
-	var result = await con.promise().query('INSERT INTO answers (answer, author, created_at, questionID) values (?,?,?,?)', [
-		data.answerText,
-		data.author,
-		date,
-		data.ID
-	]);
+	var result = await con
+		.promise()
+		.query('INSERT INTO answers (answer, author, created_at, questionID) values (?,?,?,?)', [
+			data.answerText,
+			data.author,
+			date,
+			data.ID
+		]);
 	return result[0];
 }

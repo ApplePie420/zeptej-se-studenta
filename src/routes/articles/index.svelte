@@ -24,7 +24,6 @@
 <h1>Articles:</h1>
 
 <ul>
-
 	{#each articles.res as { name }}
 		<li>
 			<p>

@@ -9,7 +9,7 @@
 	date = new Date(date).toISOString().substring(0, 10);
 
 	function showAnswerForm() {
-		if(showForm) {
+		if (showForm) {
 			showForm = false;
 		} else {
 			showForm = true;
@@ -25,36 +25,39 @@
             </pre>
 		</div>
 		{#if answer}
-		<div class="card-section radius qCard-answer">
-			<b>
-				<pre class="radius">
+			<div class="card-section radius qCard-answer">
+				<b>
+					<pre class="radius">
                 	{answer}
 				</pre>
-            </b>
-			<i class="answerAuthor"> -{author} </i>
-		</div>
+				</b>
+				<i class="answerAuthor"> -{author} </i>
+			</div>
 		{:else}
-		<div class="card-section radius qCard-answer">
-			<pre class="radius notAnswered">
+			<div class="card-section radius qCard-answer">
+				<pre
+					class="radius notAnswered">
                 Tato otázka ještě nebyla zodpovězena!
             </pre>
-		</div>
+			</div>
 		{/if}
 		<div class="card-section radius qCard-footer">
 			On {date} by Anonymous
 		</div>
 		{#if !answer}
 			<div class="card-section radius qCard-footer">
-				<button class="button button-s primary radius" href="#" on:click="{showAnswerForm}">Přidat odpověď</button>
+				<button class="button button-s primary radius" href="#" on:click={showAnswerForm}
+					>Přidat odpověď</button
+				>
 			</div>
 		{/if}
 		{#if showForm}
 			<div class="card-section radius qCard-footer">
 				<form action="/api/answer" method="post">
-					<textarea name="answerText" cols="30" rows="5" placeholder="Answer"></textarea>
-					<input type="hidden" name="questionID" value="{ID}">
-					<input type="text" name="author" placeholder="Autor">
-					<input type="submit" value="Odeslat" class="button radius">
+					<textarea name="answerText" cols="30" rows="5" placeholder="Answer" />
+					<input type="hidden" name="questionID" value={ID} />
+					<input type="text" name="author" placeholder="Autor" />
+					<input type="submit" value="Odeslat" class="button radius" />
 				</form>
 			</div>
 		{/if}
