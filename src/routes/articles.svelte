@@ -28,7 +28,7 @@
 	{#each articles.res as { name, text, author, tags, date }}
 		<div class="grid-x">
 			<div class="cell small-8 large-offset-2">
-				<ArticleCard {name} {text} {author} {tags} {date}></ArticleCard>
+				<ArticleCard {name} {text} {author} {tags} {date} />
 			</div>
 		</div>
 	{/each}
