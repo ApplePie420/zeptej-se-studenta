@@ -1,9 +1,9 @@
-import { initDB } from '$lib/mysql.js';
+import { getArticles } from '$lib/mysql.js';
 
 export async function get() {
 	return {
 		body: {
-			db: await initDB()
+			res: await getArticles()
 		}
 	};
 }

@@ -5,7 +5,7 @@
 		if (res.ok) {
 			return {
 				props: {
-					post: await res.json()
+					articles: await res.json()
 				}
 			};
 		}
@@ -18,17 +18,18 @@
 </script>
 
 <script>
+	import ArticleCard from '../components/article_card.svelte';
 	export let articles;
 </script>
 
 <h1>Articles:</h1>
 
-<ul>
-	{#each articles.res as { name }}
-		<li>
-			<p>
-				{article.name}
-			</p>
-		</li>
+<div class="container">
+	{#each articles.res as { name, text, author, tags, date }}
+		<div class="grid-x">
+			<div class="cell small-8 large-offset-2">
+				<ArticleCard {name} {text} {author} {tags} {date}></ArticleCard>
+			</div>
+		</div>
 	{/each}
-</ul>
+</div>

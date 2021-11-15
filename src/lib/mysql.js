@@ -47,6 +47,14 @@ export async function getQuestions() {
 	return result[0];
 }
 
+export async function getArticles() {
+	var SQL = 'SELECT * FROM articles';
+
+	const result = await con.promise().query(SQL);
+	// console.log(result[0]);
+	return result[0];
+}
+
 export async function answerQuestion(data) {
 	let date = new Date();
 
