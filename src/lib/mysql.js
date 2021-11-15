@@ -51,7 +51,6 @@ export async function getArticles() {
 	var SQL = 'SELECT * FROM articles';
 
 	const result = await con.promise().query(SQL);
-	// console.log(result[0]);
 	return result[0];
 }
 
@@ -66,5 +65,14 @@ export async function answerQuestion(data) {
 			date,
 			data.ID
 		]);
+	return result[0];
+}
+
+export async function getArticle(articleURL) {
+	console.log(articleURL);
+	// firstname=?,${[name]}
+	var SQL = `SELECT * FROM articles WHERE url='${[articleURL]}'`;
+	const result = await con.promise().query(SQL);
+	console.log(result[0]);
 	return result[0];
 }

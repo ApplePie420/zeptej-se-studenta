@@ -4,6 +4,7 @@
 	export let date;
 	export let tags;
 	export let name;
+    export let url;
 
 	let desc = text.split('\n')[0];
 
@@ -22,7 +23,7 @@
 		<i>
 			{desc}
 
-			<a href="#">Číst více...</a>
+			<a href="articles/{url}">Číst více...</a>
 		</i>
 	</div>
 	<div class="card-section radius">

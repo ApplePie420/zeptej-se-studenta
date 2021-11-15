@@ -25,10 +25,10 @@
 <h1>Articles:</h1>
 
 <div class="container">
-	{#each articles.res as { name, text, author, tags, date }}
+	{#each articles.res as { name, text, author, tags, date, url }}
 		<div class="grid-x">
 			<div class="cell small-8 large-offset-2">
-				<ArticleCard {name} {text} {author} {tags} {date} />
+				<ArticleCard {name} {text} {author} {tags} {date} {url} />
 			</div>
 		</div>
 	{/each}
