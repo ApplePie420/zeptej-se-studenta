@@ -34,5 +34,71 @@
 		"law": "Criminial law i sone of the biggest fields of law with a rich history.",
 		"responsibility": "The determination of legal responsibility is probably one of the most important questions.",
 		"placeholder": "Placeholder"
+	},
+	"codex": {
+		"title": "Student advisors‘ ethical codex Zeptejte se Studenta",
+		"student_advisor": "Student advisor is the worker at our student advisory services, who answers the Clients‘ Queries via our platform. Student advisor may be in an employment, voluntary or a different legal contract/ relationship with the student advisory service. A Student advisor answers the Client’s Query to his best ability and faith. A Student advisor is the Processor in terms of sections 24 to 29 in our ",
+		"client": "Client is the applicant for the services provided by Student advisors and the inquirer of the Query on the online platform Zeptejte se Studenta. Client is defined in the sections 2 to 5 of the",
+		"query": "Query is any question with legal undertone which will be asnwered to the Client by one of our Processors in terms of section 1 and sections 6 to 12 of our",
+		"goal": "The goal of the student advisory service Zeptejte se Studenta is to answer the Clients‘ Queries to their best ability and faith. Student advisors nor the firm Zeptejte se Studenta s.r.o. does not bear the responsibility for the consequences caused by the Clients‘ realization of the advice provided by the Processor.",
+		"enums": {
+			"basic_values": {
+				"title": "Processor’s basic values",
+				"a": "Consulting is supposed to serve the needs of a Client, Student advisor is therefore obliged to provide a decent service to the Client,",
+				"b": "Student advisor needs to work  within the law,",
+				"c": "Student advisor is not going to allow themself to be influenced by outside forces nor the interests of third persons when answering Client’s Queries so that they only follow the interest of the Client,",
+				"d": "If there is a possible threat to the Processor’s independence he will forward the service of answering the Client’s question to another Processor,",
+				"e": "Client has the right to know if the advisor’s independence is threatened and has the right to decide, if even when knowing the reality of things he has faith in the advisor and the advisory service in general. It could seem very unfair towards the Client if they found out later in time,",
+				"f": "Processor remembers his duty of confidentiality and protects the Client’s anonymity as well as the confidentiality of Queries of our Student advisory service."
+			},
+			"processor_damage": {
+				"title": "Processor makes sure to not cause damage for the Client",
+				"a": "Student advisor is aware of the limitations of his abilities and they will not try to provide the Client a service that outreaches the limits of his abilities,",
+				"b": "Processor makes sure to not cause damage for the Client by providing the advisory services,",
+				"c": "If the answering of a Query is above the abilities of the Processor, they will forward the provision of the service to a different Processor or a group of Processors,",
+				"d": "If the provision of a Query is above the abilities of all Processors, we will provide this information to the Client and the Processors will not be answering or giving advice on the matter, if the advisory service was supposed to be provided for monetary reward, the money will be returned to the Client in full amount."
+			},
+			"respect": {
+				"title": "Processor respects the Client",
+				"a": "The Processor is aware that the goal of student advisory services is to fulfill the Client’s order to his best interest, and not to the Processor’s expectations and therefore respects the Client’s right to his own wishes, needs, opinions, stands and decisions,",
+				"b": "Processor respects the Client’s dignity and provides a service in a way which meets the Client’s abilities,",
+				"c": "Student advisor provides the service with respect and in a way which does not shame the Client. The advisor needs to be aware of the Client’s abilities to understand the answer to the Query provided by the Processor, meaning the Processor will not provide an answer using too many formal and legal terms,",
+				"d": "If the Client does not understand the answer to his Query provided by the Processor, the Processor will explain the answer again without any complaints,",
+				"e": "If the Processor has a suspicion that the Client is abusing Section 3. d. of this document, he is not obliged to answer any follow up questions,",
+				"f": "It is wrong to provide a service at such a level when the Client would not be able to understand it, however, it is crucial not to humiliate or shame the Client by the format of the provided answer. The service must be provided in such a format which takes into consideration the Client’s abilities."
+			},
+			"discretion": {
+				"title": "Processor is discrete",
+				"a": "Processor follows the confidentiality agreement regarding the information he receives while providing advisory services via the platform Zeptejte se Studenta,",
+				"b": "Processor may provide the information about a Client only to other Processors or the Administrator (defined in the",
+				"c": "If the Processor is discussing matters with a justified persona which is binded by the confidentiality agreement he always needs to consider the reality of the situation and how safe the environment in which it is discussed is,",
+				"d": "Processor pays regard to Client’s anonymity and he does not discuss his Query with third persons who may have a legal interest in it,",
+				"e": "Moreover, the Processor can breach the confidentiality agreement only with the Client’s expressed consent or in a situation where the breach is set by a legal regulation. He has to inform the Client about this beforehand,",
+				"f": "The Processor keeps up with the confidentiality agreement even if he is discussing the Client’s Query with a professional. If the answering of such a Query is above the means of the Processor’s abilities, he keeps the Client’s name and details about the Query in anonymity."
+			},
+			"professional_growth": {
+				"title": "Processor strives for his professional growth",
+				"a": "Processor is aware that Clients rely on the professionality of the service provided by the station of a Student advisor and therefore he will educate himself through self study, participation at courses and other advised forms to further enhance his professional growth,",
+				"b": "Processor constantly studies to provide Client with the best services,",
+				"c": "Student advisor should be aware of news and social changes and he should further his knowledge to help with Client’s Queries regarding the problems in the world rightly at hand."
+			},
+			"final_provisions": {
+				"title": "Final provisions",
+				"a": "This Codex is binding to all Processors and is in accordance with the",
+				"b": "have greater legal force when colliding with the Codex,",
+				"c": "This Codex takes effect on 29.11.2021."
+			}
+		},
+		"tos": {
+			"single": "General terms and conditions",
+			"with": "General terms and conditions",
+			"in": "General terms and conditions"
+		},
+		"privacy_policy": {
+			"single": "Privacy policy",
+			"with": "Privacy policy",
+			"in": "Privacy policy"
+		},
+		"and": "and"
 	}
 }

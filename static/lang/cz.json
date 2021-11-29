@@ -34,5 +34,71 @@
 		"law": "Trestní právo je jedním z největších právních odvětví s bohatou historií. ",
 		"responsibility": "Určení právní odpovědnosti představuje zřejmě nejpodstatnější otázku.",
 		"placeholder": "Placeholder"
+	},
+	"codex": {
+		"title": "Etický kodex studentských poradců Zeptejte se Studenta",
+		"student_advisor": "Studentským poradcem se rozumí pracovník studentské poradny, který odpovídá Klientovi skrze naší platformu Dotazy, v rámci kterých se formuluje zakázka Klienta a je následně poskytována poradenská služba. Studentský poradce může být vůči studentské poradně v pracovněprávním, dobrovolnickém či jiném právním vztahu. Studentský poradce odpovídá Klientovi na jeho Dotazy v jeho nejlepší víře a míře jeho možností. Studentským poradcem je ve smyslu článků 24 až 28 našich",
+		"client": "Klientem se rozumí zájemce o službu poskytovanou studentskými poradci a vznesitel Dotazu na online platformu Zeptejte se Studenta. Klient je definován v článcích 2 až 5 našich",
+		"query": "Dotazem se rozumí libovolný Dotaz s právní tématikou, na který Klientovi jeden ze Zpracovatelů následně odpoví ve smyslu článku 1 a článků 6 až 12 našich",
+		"goal": "Cílem studentské poradny Zeptejte se Studenta je zodpovídání Dotazů Klienta podle svého nejlepšího vědomí a svědomí. Studentští poradci ani firma Zeptejte se Studenta s.r.o. nebere odpovědnost za následky, způsobené Klientovou realizací rady poskytnuté Zpracovatelem.",
+		"enums": {
+			"basic_values": {
+				"title": "Základní hodnoty Zpracovatele",
+				"a": "Poradenství má sloužit potřebám Klienta, Studentský poradce je tudíž povinen poskytnout Klientovi řádnou službu,",
+				"b": "Studentský poradce se musí držet v mezích zákona,",
+				"c": "Studentský poradce se při zodpovězení Dotazů Klienta nenechá ovlivnit vnějšími vlivy nebo zájmy třetích osob a sleduje tak jen a pouze zájem Klienta,",
+				"d": "Pokud je nezávislost Zpracovatele ohrožena, předá službu zodpovězení dotazu jinému ze Zpracovatelů,",
+				"e": "Klient má právo vědět, zda je nezávislost poradce ohrožena a rozhodnout se, zda navzdory této skutečnosti má v poradnu a poradce důvěru. Vůči Klientovi může působit velmi nedůvěryhodně, pokud se o dotčených skutečnost dozví až následně,",
+				"f": "Zpracovatel pamatuje na svou povinnost mlčenlivosti a udržuje anonymitu Klientů a jejich Dotazů podaných na Naši Studentské poradně."
+			},
+			"processor_damage": {
+				"title": "Zpracovatel dbá na to, aby nepoškodil Klienta",
+				"a": "Studentský poradce si uvědomuje limity svých možností a schopností a nebude se tak snažit Klientovi poskytnout službu, která míří nad rámec jeho možností,",
+				"b": "Zpracovatel dbá na to, aby nepoškodil Klienta svým vykonáváním služeb v rámci zodpovídání Dotazů,",
+				"c": "Pokud je zodpovězení Dotazu nad možnosti a schopnosti Zpracovatele, předá vykonání služby jinému ze Zpracovatelů, či skupině Zpracovatelů,",
+				"d": "Pokud je zodpovězení Dotazu nad míry schopností a možností všech Zpracovatelů, tuto skutečnost Klientovi oznámí, a na Dotaz odpovídat nebudou, pokud tato služba měla být poskytnuta za peníze, vrátí Klientovi peníze v plné míře."
+			},
+			"respect": {
+				"title": "Zpracovatel respektuje Klienty",
+				"a": "Zpracovatel si uvědomuje, že účelem studentského poradenství je splnit zakázku Klienta v jeho nejlepším zájmu, a nikoliv očekávání Zpracovatele a proto respektuje právo Klienta na vlastní přání, potřeby, názory, postoje a rozhodnutí,",
+				"b": "Zpracovatel respektuje lidskou důstojnost Klienta a poskytuje službu způsobem, který odpovídá Klientovým schopnostem a možnostem,",
+				"c": "Poradce poskytuje službu s respektem a tak, aby Klienta neurazil, musí si být vědom Klientových schopností a možností porozumět odpovědi na Dotaz, který mu Zpracovatel poskytuje, tzn. neodpovídá Klientovi užitím přílišného formalismu a právních termínů, kterým by rozuměl jen člověk z oboru,",
+				"d": "Pokud Klient nerozumí odpovědi na Dotaz poskytnutý Zpracovatelem, Zpracovatel mu jej bez jakýchkoliv námitek vysvětlí a poskytne mu srozumitelnější odpověď,",
+				"e": "Pokud Zpracovatel pojme podezření, že Klient zneužívá ustanovení části 3. písmena d. tohoto dokumentu, není povinen se Klientovými doplňujícími dotazy zabývat,",
+				"f": "Je chybou poskytnout službu na takové úrovni, ve které jí Klient není schopen vstřebat, ale na druhou stranu nesmí poradce zvolit formu, která Klienta zbytečně zneschopňuje či zinfantilňuje. Služba by vždy měla probíhat tak, aby byla přiměřená Klientovi a umožňovala mu maximálně využít vlastních schopností a možností."
+			},
+			"discretion": {
+				"title": "Zpracovatel je diskrétní",
+				"a": "Zpracovatel zachovává mlčenlivost o všech skutečnostech, které se dozví v rámci či v souvislosti s poskytováním studentského poradenství přes naši platformu Zeptejte se Studenta,",
+				"b": "Zpracovatel může poskytovat informace o Klientovi pouze dalším Zpracovatelům anebo Správci (tak jak je definován v ",
+				"c": "Probírá-li Zpracovatel s oprávněnou osobou věci ke kterým se váže mlčenlivost, musí vždy zvážit aktuální souvislosti a nakolik je garantováno soukromí takového rozhovoru,",
+				"d": "Zpracovatel dbá na anonymitu Klienta a o jeho Dotazu se nebaví se třetími osobami, které by na tom mohly mít právní zájem,",
+				"e": "Zpracovatel dále poruší mlčenlivosti pouze na základě výslovného souhlasu Klienta, či v situaci, kdy prolomení mlčenlivosti ukládá obecně závazný právní předpis, na tuto možnost Klienty předem upozorňuje,",
+				"f": "Zpracovatel udrží mlčenlivost i když probírá Klientův Dotaz s odborníkem. Pokud je jeho zodpovězení nad míry schopností Zpracovatele, udržuje jméno a detaily o Klientově Dotazu v anonymitě."
+			},
+			"professional_growth": {
+				"title": "Zpracovatel usiluje o svůj odborný růst",
+				"a": "Zpracovatel si uvědomuje, že Klienti spoléhají na odbornou úroveň služby dle stavu Studentského poradce a proto samostudiem, účastí na akreditovaných i neakreditovaných kurzech a dalšími vhodnými formami neustále prohlubuje a rozšiřuje své odborné znalosti na úrovni studenta,",
+				"b": "Zpracovatel neustále studuje, aby mohl svým Klientům poskytovat stále lepší služby,",
+				"c": "Studentský poradce by se měl snažit sledovat společenské dění a průběžně aktualizovat a doplňovat své znalosti, aby mohl řešit i Klientovy Dotazy týkající se aktuální problematiky ve světě."
+			},
+			"final_provisions": {
+				"title": "Závěrečná ustanovení",
+				"a": "Tento Kodex je závazný pro všechny Zpracovatele a je účinný v souladu se",
+				"b": "mají při kolizi s Kodexem větší právní váhu,",
+				"c": "Tento Kodex nabývá účinnosti 29.11.2021."
+			}
+		},
+		"tos": {
+			"single": "Všeobecné obchodní podmínky",
+			"with": "Všeobecnými obchodními podmínkami",
+			"in": "Všeobecných obchodních podmínkách"
+		},
+		"privacy_policy": {
+			"single": "Zásady ochrany osobních údajů",
+			"with": "Zásadami ochrany osobních údajů",
+			"in": "Zásadách ochrany osobních údajů"
+		},
+		"and": "a"
 	}
 }
