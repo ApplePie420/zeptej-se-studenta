@@ -89,16 +89,93 @@
 				"c": "This Codex takes effect on 29.11.2021."
 			}
 		},
+		"and": "and"
+	},
+	"links": {
 		"tos": {
 			"single": "General terms and conditions",
 			"with": "General terms and conditions",
-			"in": "General terms and conditions"
+			"in": "General terms and conditions",
+			"by": "General terms and conditions"
 		},
 		"privacy_policy": {
 			"single": "Privacy policy",
 			"with": "Privacy policy",
 			"in": "Privacy policy"
-		},
-		"and": "and"
+		}
+	},
+	"privacy_policy": {
+		"title": "Privacy Policy",
+		"main_text": "We are the company Zeptejte se Studenta s. r. o. with residence at Roztylské sady 1618/62, Záběhlice, 141 00 Praha 4, IČO: 088 73 216, registered in the Business Register led by the Municipal court in Prague, sp. Zn. C 326796 („Administrator“). We operate at the online page www.zeptejtesestudenta.cz, where we enable and secure legal service promotion and online student consulting. During this promotion it may lead to personal data processing. We would like to inform you about all the circumstance related to the personal data processing through this Privacy Policy document („Privacy Policy“)",
+		"enums": {
+			"title": "Basic information",
+			"article": "Section",
+			"1": "Personal data processing is follows the Regulations of the European Parliament and Council (EU) 2016/679 on the date April 27, 2016 regarding the protection of individuals in regards to the Privacy policy and free movement of this data as well as the repeal of the Directive 95/46/ES (well known as „GDPR“) and Act no. 110/2019 Sc., about personal data processing.",
+			"2": "Personal data means all information about an identified or unidentified individual, identified individual is an individual, who may be directly or indirectly identified, mainly through a link to a specific identifier, for example name, identification number, location data, web identifier or one or more specific elements of physical, physiological, genetical, psychological, economic, cultural or social identity of this individual.",
+			"gathered_data": {
+				"title": "Acquired personal data",
+				"main_text_1": "If a Client (as defined in the",
+				"main_text_2": "decides to ask a Query (as defined in the",
+				"main_text_3": "), the administrator will process the below mentioned personal data:",
+				"enums": {
+					"fullname": "first name and last name",
+					"mail": "e-mail",
+					"phone": "phone number – provision of the phone number is optional"
+				}
+			},
+			"4": "The administrator processes the number of Queries asked by the Client. This act is carried out with the purpose of keeping statistics and improving the service.",
+			"5_1": "During the existence of your user account (as defined in the",
+			"5_2": ") at the online page other personal data might be acquired such as from cookies and from other activities, which we will be doing during the administration of your account.",
+			"6": "The Administrator processes the personal data which were provided by the Client or which he received based on answering the Client’s Query.",
+			"7": "The Administrator processes the Client’s personal data necessary for answering their Query.",
+			"reason_title": "The legal reason and purpose of processing personal data",
+			"8": "The legal reason for personal data processing is fulfilling the contract performance between you and the administrator based on section 6 paragraph 1 letter b) of Regulation of the European Parliament and of the Council (EU) 2016/679.",
+			"9": "The purpose of personal data processing is answering the Client’s Query and the exercise of rights and obligations based on the contractual relationship between the Client and the Administrator; when asking the query personal data are needed which are necessary for the answering of your Query (first name, last name, contact – e-mail), provision of personal data is a necessary requirement for the closure and performance of the contract, without providing the personal data it is not possible to close the contract or perform it by the Administrator.",
+			"10": "During the processing of personal data by the Administrator automatic individual decising happens in accordance with the section 22 of the Regulation of the European Parliament and Council (EU) 2016/679. The Client has expressly agreed to this kind of processing by expressing consent with the Privacy Policies.",
+			"11": "One of the Client’s rights is complaint. Personal data is therefore being processed for the reason of correct evaluation of a possible complaint.",
+			"12": "The legal reason for processing is the performance of our mutual contractual relationship and our just interest which consists of verifying your identity when registering and for the defense of your claims and for the purpose of bookkeeping when fulfillment of legal obligations.",
+			"13": "The Client’s personal data is processed by the Administrator only for the time strictly necessary (under conditions of permanent consent) to perform the above mentioned purpose for which they were gathered – the registration and the use of user account functionalities, defense of legal claims, adaptation of our services, performance of legal obligations and others. The real time of data retention may differ for individual purposes.",
+			"14": "If so the law provides, the Administrator may store the personal data longer than necessary or when the duration of Client’s consent with this storing ends. The law may provide this in cases of bookkeeping, tax reasons and general performance of closed contracts.",
+			"15": "Processing of personal data is generally ruled by the legislation of the Czech Republic and European Union.",
+			"16": "The personal data is being processed by the Administrator only for the duration of the Client’s consent with this processing. If the law does not say otherwise.",
+			"processors_as_recipients_title": "Processors as recipients of personal data",
+			"17_1": "A Processor is for the purposes of the Privacy Policy defined in the",
+			"17_2": "A Processor in this document is not defined based on the legislation of the Czech Republic and European Union, which are relating to processing of personal data.",
+			"18_1": "A Processor (as defined in the",
+			"18_2": ") are people taking part in the answering of Queries and the service provision of the company which works as the Administrator.",
+			"19": "The Administrator passes on the Client’s personal data to the Processor or Processors for the purposes mentioned in section 17. Without this passing on of personal data the service provided by the Administrator would not be possible.",
+			"20": "The Processors are binded by the Terms and Conditions as well as the Privacy policy to the same extent as the Administrator and to the same extent they are also legally responsible.",
+			"21": "The Processors, same as the Administrator, are obliged to keep full anonymity of the Client and to not pass on the Client’s personal data to no one else than to other Processors or the Administrator.",
+			"22": "The Administrator does not intend to pass on the personal data to a third country (a country outside of EU) or an international organization.",
+			"rights_of_client_title": "Client’s rights",
+			"23": {
+				"text": "Based on the Regulation of the European Parliament and of the Council (EU) 2016/679 the Client has the right to:",
+				"enums": {
+					"1": "access their personal data",
+					"2": "correct their personal data",
+					"3": "limit the processing of their personal data",
+					"4": "erase the personal data („right to be forgotten“)",
+					"5": "raise an objection against the processing of personal data",
+					"6": "the portability of data",
+					"7": "revoke consent to processing of personal data – this withdrawal of consent must be communicated to the Administrator by post to to their residency or by e-mail to this"
+				}
+			},
+			"24": "The Client has a right to file a complaint to the Office for the Protection of personal data in case of wondering if their right of protection of personal data was threatened.",
+			"25": "Furthermore, the Client has a right to withdraw their consent to processing of personal data, meaning all data which they provide to the Administrator when registering, mentioned in section 3 of this document. The right to withdraw a Query is not included in this nor the claim to erase it on the online page.",
+			"security_title": "Conditions of the protection of personal data",
+			"26": "The Administrator declares that they took all technical and organizational measures to secure personal data.",
+			"27_1": "The Administrator declares that the only persons having access to the personal data are Processors (as defined in the",
+			"27_2": ") and the Administrator themself.",
+			"28": "The personal data can also be passed on to (for example) the police or other authorities and that only for the purpose of defense of own clams or in the case that the Administrator has such an obligation provided by the law. All personal data will be processed only in the territory of the European Union.",
+			"final_title": "Closing arguments",
+			"29": "The Administrator honors the core values of legal acts regarding the personal data processing. Such values are legality, correctness, transparency, accuracy, integrity and intimacy.",
+			"30": "Sending the Query through the form assigned for this reason on the online page, the Client confirms that they are acquainted with this document and accepts the entire content.",
+			"31": "The Client agrees with these conditions by checking the consent box via the internet form. By checking the consent box the Client confirms that he is familiar with this document and he accepts it in full version.",
+			"32": "The administrator is entitled to change this Policy. The new version of the Privacy policy will be published on the online page or sent to the Client on the e-mail address that the Client has provided.",
+			"33": "If the Client does not consent to the personal data processing based on section 30 and 31, the personal data processing is illegal.",
+			"34_1": "If problems occur on the part of the Client regarding the processing of personal data, the Administrator invites the Client to immediately report these problems to the",
+			"34_2": "The Administrator will eliminate such problems after this report or will at least try to solve them to the best of his abilities.",
+			"35": "These Policies take effect on 29.11.2021."
+		}
 	}
 }

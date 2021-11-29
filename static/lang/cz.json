@@ -89,16 +89,93 @@
 				"c": "Tento Kodex nabývá účinnosti 29.11.2021."
 			}
 		},
+		"and": "a"
+	},
+	"links": {
 		"tos": {
 			"single": "Všeobecné obchodní podmínky",
 			"with": "Všeobecnými obchodními podmínkami",
-			"in": "Všeobecných obchodních podmínkách"
+			"in": "Všeobecných obchodních podmínkách",
+			"by": "Všeobecních obchodních podmínek"
 		},
 		"privacy_policy": {
 			"single": "Zásady ochrany osobních údajů",
 			"with": "Zásadami ochrany osobních údajů",
 			"in": "Zásadách ochrany osobních údajů"
-		},
-		"and": "a"
+		}
+	},
+	"privacy_policy": {
+		"title": "Zásady ochrany osobních údajů",
+		"main_text": "Jsme společnost Zeptejsestudenta s.r.o., se sídlem Pitkovická 574/15, Strašnice, 100 00 Praha 10, IČO: 088 73 216, zapsaná v obchodním rejstříku vedeném Městským soudem v Praze pod spisovou značkou C 326796 (dále jen „Správce“). Provozujeme webové stránky www.zeptejtesestudenta.cz (dále jen „Webové stránky“), kde umožňujeme a zajišťujeme propagaci služeb advokátů a online studentskou poradnu. Při této propagaci se může stát, že bude docházet ke zpracování osobních údajů. Chtěli bychom Vás prostřednictvím těchto zásad ochrany osobních údajů (dále jen „Zásady“) informovat o všech důležitých okolnostech s tímto zpracováním spojených.‌",
+		"enums": {
+			"title": "Základní ustanovení",
+			"article": "Článek",
+			"1": "Zpracování osobních údajů se řídí Nařízením Evropského parlamentu a Rady (EU) 2016/679 ze dne 27. dubna 2016 o ochraně fyzických osob v souvislosti se zpracováním osobních údajů a o volném pohybu těchto údajů a o zrušení směrnice 95/46/ES (známější spíše jako „GDPR“) a zákonem číslo 110/2019 Sb, o zpracování osobních údajů, v účinném znění.",
+			"2": "Osobními údaji se rozumí veškeré informace o identifikované nebo identifikovatelné fyzické osobě; identifikovatelnou fyzickou osobou je fyzická osoba, kterou lze přímo či nepřímo identifikovat, zejména odkazem na určitý identifikátor, například jméno, identifikační číslo, lokační údaje, síťový identifikátor nebo na jeden či více zvláštních prvků fyzické, fyziologické, genetické, psychické, ekonomické, kulturní nebo společenské identity této fyzické osoby.",
+			"gathered_data": {
+				"title": "Získávané osobní údaje",
+				"main_text_1": "Pokud se Klient (tak jak je definován ve",
+				"main_text_2": "rozhodne položit Dotaz (tak jak je definován ve",
+				"main_text_3": ") bude Správce zpracovávat tyto jeho osobní údaje",
+				"enums": {
+					"fullname": "jméno, příjmení",
+					"mail": "e-mail",
+					"phone": "telefonní číslo – poskytnutí telefonního čísla je volitelné"
+				}
+			},
+			"4": "Správce dále zpracovává počet Klientem položených Dotazů. Tento úkon je prováděn za účelem vedení statistiky a zkvalitňování služeb.",
+			"5_1": "V průběhu existence Vašeho Účtu (tak jak je definován ve",
+			"5_2": ") v rámci Webových stránek mohou být získány další osobní údaje, a to například ze souborů cookies a dalších činností, které budeme při správě účtu provádět.",
+			"6": "Správce zpracovává osobní údaje, které mu byly poskytnuty Klientem, nebo které získal na základě zodpovězení Klientova Dotazu.",
+			"7": "Správce zpracovává Klientovy osobní údaje nezbytné pro zodpovídání Dotazů.",
+			"reason_title": "Zákonný důvod a účel zpracování osobních údajů",
+			"8": "Zákonným důvodem pro zpracování osobních údajů je plnění smlouvy mezi Klientem a Správcem podle článku 6 odstavce 1 písmena b) Nařízení Evropského parlamentu a Rady (EU) 2016/679.",
+			"9": "Účelem zpracování osobních údajů je vyřízení Klientova Dotazu a výkon práv a povinností vyplývajících ze smluvního vztahu mezi Klientem a Správcem; při pokládání dotazu jsou vyžadovány osobní údaje, které jsou nutné pro úspěšné zodpovězení Vašeho dotazu (jméno, příjmení a kontakt – e-mail), poskytnutí osobních údajů je nutným požadavkem pro uzavření a plnění smlouvy, bez poskytnutí osobních údajů není možné smlouvu uzavřít, či ji ze strany Správce plnit.",
+			"10": "Při zpracování osobních údajů Správcem dochází k automatizovanému individuálnímu rozhodování ve smyslu článku 22 Nařízení Evropského parlamentu a Rady (EU) 2016/679. S tímto postupem Klient souhlasí udělením souhlasu se Zásadami ochrany osobních údajů.",
+			"11": "Jedním z práv Klienta je reklamace. Osobní údaje se tak zpracovávají za účelem správného vyhodnocení případné reklamace.",
+			"12": "Právním důvodem pro toto zpracování je plnění našeho vzájemného smluvního vztahu a náš oprávněný zájem, který spočívá v ověření Vaší identity při provedení registrace, obhajobě vlastních nároků a pro účely vedení účetnictví plnění právních povinností.",
+			"13": "Klientovy osobní údaje Správce zpracovává pouze po dobu nezbytně nutnou (za podmínek stálého souhlasu) k naplnění výše uvedených účelů, pro které byly shromážděny – registrace a využívání funkcionalit uživatelského účtu, obhajoba právních nároků, přizpůsobování služeb, plnění zákonných povinností a dalších. Skutečná doba uchovávání informací se může pro jednotlivé účely a Klienty lišit.",
+			"14": "Pokud tak zákon stanoví, může Správce uchovávat osobní údaje déle, než je nutné nebo než trvá Klientův souhlas s tímto uchováváním. Zákon tak může stanovit v případě vedení účetnictví, daňových záležitostí a obecného výkonu uzavíraných smluv.",
+			"15": "Zpracování osobních údajů se obecně řídí právními předpisy České republiky a Evropské unie.",
+			"16": "Osobní údaje jsou Správcem zpracovávány pouze po dobu trvání Klientova souhlasu s tímto zpracováváním. Pokud zákon nestanoví jinak.",
+			"processors_as_recipients_title": "Zpracovatelé jako příjemci osobních údajů",
+			"17_1": "Zpracovatel je pro účely Zásad ochrany osobních údajů definován podle",
+			"17_2": "Zpracovatel v těchto dokumentech není definován podle právních předpisů České republiky a Evropské unie, které se týkají zpracování osobních údajů.",
+			"18_1": "Zpracovatelé (tak jak jsou definováni ve",
+			"18_2": ") jsou osoby podílející se na zodpovídání Dotazů a obecném udržování chodu obchodní společnosti, která vystupuje jako Správce.",
+			"19": "Správce předává Klientovy osobní údaje Zpracovateli nebo Zpracovatelům za účely uvedenými ve článku 17. Bez tohoto předávání osobních údajů by výkon služeb poskytovaných Správcem nebyl možný.",
+			"20": "Zpracovatelé jsou vázáni Obchodními podmínkami a Zásadami ochrany osobních údajů do stejné míry jako Správce a do stejné míry jsou taktéž právně odpovědní.",
+			"21": "Zpracovatelé, stejně jako Správce, jsou povinni uchovávat stoprocentní anonymitu Klienta a nepředávat Klientovy osobní údaje nikomu jinému než ostatním Zpracovatelům nebo Správci.",
+			"22": "Správce nemá v úmyslu předat osobní údaje do třetí země (země mimo EU) nebo mezinárodní organizaci.",
+			"rights_of_client_title": "Klientova práva",
+			"23": {
+				"text": "Klient má podle Nařízení Evropského parlamentu a Rady (EU) 2016/679 právo:",
+				"enums": {
+					"1": "Na přístup ke svým osobním údajům",
+					"2": "Na opravu svých osobních údajů",
+					"3": "Na omezení zpracování svých osobních údajů",
+					"4": "Na výmaz osobních údajů („právo být zapomenut“)",
+					"5": "Vznést námitku proti zpracování osobních údajů",
+					"6": "Na přenositelnost údajů",
+					"7": "Odvolat souhlas se zpracováním osobních údajů – toto odvolání souhlasu musí být sděleno buď poštou na adresu sídla Správce nebo emailem na"
+				}
+			},
+			"24": "Klient má dále právo podat stížnost u Úřadu pro ochranu osobních údajů v případě, že se domnívá, že bylo ohroženo jeho právo na ochranu osobních údajů.",
+			"25": "Klient má dále právo na zpětvzetí souhlasu se zpracováním osobních údajů, tzn. všechny údaje, které Správci poskytne při registraci a které jsou vyjmenovány v článku 3 tohoto dokumentu. Zde není zahrnuto právo na zpětvzetí dotazu či nárok na jeho výmaz z Webových stránek.",
+			"security_title": "Podmínky zabezpečení osobních údajů",
+			"26": "Správce prohlašuje, že přijal veškerá vhodná technická a organizační opatření k zabezpečení osobních údajů.",
+			"27_1": "Správce prohlašuje, že k osobním údajům mají přístup pouze Zpracovatelé (tak jak jsou definováni ve",
+			"27_2": ") a on sám.",
+			"28": "Osobní údaje také mohou být předány například policejním orgánům, či jiným orgánům, a to pro účely obhajoby vlastních nároků nebo v případě, kdy Správci takovou povinnost stanoví zákon. Všechny osobní údaje jsou zpracovávány pouze na území Evropské unie.",
+			"final_title": "Závěrečná ustanovení",
+			"29": "Správce ctí základní hodnoty právních předpisů upravujících zpracování osobních údajů. Těmito hodnotami jsou zákonnost, korektnost, transparentnost, přesnost, integrita a důvěrnost.",
+			"30": "Odesláním Dotazu v rámci formuláře k tomuto určenému na Webových stránkách Klient potvrzuje, že je seznámen s tímto dokumentem, a že ho celém obsahu přijímá.",
+			"31": "S těmito podmínkami Klient souhlasí zaškrtnutím souhlasu prostřednictvím internetového formuláře. Zaškrtnutím souhlasu Klient potvrzuje, že je seznámen s tímto dokumentem, a že ho v celém rozsahu přijímá.",
+			"32": "Správce je oprávněn tyto Zásady změnit. Novou verzi Zásad ochrany osobních údajů zveřejní na Webových stránkách, případně Klientům zašle novou verzi těchto Zásad na e-mailovou adresu, kterou Klienti poskytli.",
+			"33": "Pokud Klient nedá souhlas se zpracováním osobních údajů podle článků 30 a 31, je zpracování osobních údajů nezákonné.",
+			"34_1": "Pokud se na straně Klienta naskytnou jakékoliv problémy v rámci zpracování osobních údajů, vyzývá Správce, aby tyto problémy Klient neprodleně ohlásil na",
+			"34_2": "Správce po tomto ohlášení problémy odstraní, nebo se je alespoň pokusí vyřešit, jak to jen bude v jeho silách.",
+			"35": "Tyto Zásady nabývají účinnosti 29.11.2021."
+		}
 	}
 }
