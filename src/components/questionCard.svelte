@@ -29,11 +29,12 @@
 <div class="cell">
 	<div class="card radius">
 		<div class="qCard-question-section">
-			<div class="card-section radius orange-text">
+			<div class="card-section radius">
 				<h5>
 					<b>{$_("questions.question")}</b>
 				</h5>
 			</div>
+		</div>
 
 			<div class="card-section">
 				<i>
@@ -41,16 +42,16 @@
 						{question}
 					</pre>
 				</i>
-			</div>
 		</div>
 
 		{#if answer}
 			<div class="qCard-answer-section">
-				<div class="card-section radius blue-text">
+				<div class="card-section radius">
 					<h5>
 						<b>{$_("questions.answer")}</b>
 					</h5>
 				</div>
+			</div>
 
 				<div class="card-section radius ">
 					<b>
@@ -59,7 +60,6 @@
 						</pre>
 					</b>
 					<i class="answerAuthor"> {$_("questions.answer_by")}: {author} </i>
-				</div>
 			</div>
 		{:else}
 			<div class="card-section radius qCard-answer">

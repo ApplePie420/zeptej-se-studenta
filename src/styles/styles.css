@@ -193,6 +193,16 @@ body {
 	color: var(--primary-blue);
 }
 
+.qCard-question-section {
+	background-color: var(--primary-orange);
+	color: white;
+}
+
+.qCard-answer-section {
+	background-color: var(--primary-blue);
+	color: white;
+}
+
 .answer-pre {
 	margin-left: 2.5rem;
 }
