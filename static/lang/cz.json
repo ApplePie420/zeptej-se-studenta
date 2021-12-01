@@ -177,5 +177,11 @@
 			"34_2": "Správce po tomto ohlášení problémy odstraní, nebo se je alespoň pokusí vyřešit, jak to jen bude v jeho silách.",
 			"35": "Tyto Zásady nabývají účinnosti 29.11.2021."
 		}
+	},
+	"form": {
+		"name": "Jméno",
+		"question": "Váš dotaz",
+		"question_placeholder": "Sem napište váš dotaz studentovi",
+		"submit": "Odeslat Váš dotaz"
 	}
 }

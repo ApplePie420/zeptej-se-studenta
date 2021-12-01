@@ -1,7 +1,25 @@
+<script>
+	import {
+		_,
+		setupI18n,
+		isLocaleLoaded,
+		locale
+	} from '$lib/i18n';
+
+	$: if (!$isLocaleLoaded) {
+		setupI18n({
+			withLocale: 'cz'
+		});
+	}
+</script>
+
+{#if $isLocaleLoaded}
 <div class="card radius shadow bordered">
-	<div class="card-divider">
+	<div class="card-divider orange-background white-text">
 		<h1>
-			<b>Zeptejte se studenta</b>
+			<b>
+				{$_("general.ask_question")}
+			</b>
 		</h1>
 	</div>
 
@@ -10,40 +28,43 @@
 			<div class="grid-container">
 				<div class="grid-x grid-padding-x">
 					<div class="medium-6 cell">
-						<label>
+						<label for="email">
 							E-Mail
+						</label>
 							<input
 								type="email"
 								name="email"
-								placeholder="vas@email.com"
+								placeholder="example@email.com"
 								class="radius"
+								id="email"
 							/>
-						</label>
 					</div>
 
 					<div class="medium-6 cell">
-						<label>
-							Jméno
+						<label for="author">
+							{$_("form.name")}
+						</label>
 							<input
 								type="text"
 								name="author"
-								placeholder="Jan Novák"
+								placeholder="John Doe"
 								class="radius"
+								id="author"
 							/>
-						</label>
 					</div>
 				</div>
 
 				<div class="grid-x grid-padding-x">
 					<div class="cell">
-						<label>
-							Váš dotaz
+						<label for="question">
+							{$_("form.question")}
+						</label>
 							<textarea
 								class="question-ta radius"
-								placeholder="Sem napište váš dotaz studentovi"
+								placeholder={$_("form.question_placeholder")}
 								name="question"
+								id="question"
 							/>
-						</label>
 					</div>
 				</div>
 
@@ -51,7 +72,7 @@
 					<div class="cell">
 						<input
 							type="submit"
-							value="Odeslat dotaz"
+							value={$_("form.submit")}
 							class="button accent shadow radius"
 						/>
 					</div>
@@ -60,3 +81,7 @@
 		</form>
 	</div>
 </div>
+
+{:else}
+	<p>Loading...</p>
+{/if}

@@ -177,5 +177,12 @@
 			"34_2": "The Administrator will eliminate such problems after this report or will at least try to solve them to the best of his abilities.",
 			"35": "These Policies take effect on 29.11.2021."
 		}
+	},
+	"form": {
+		"name": "Full name",
+		"question": "Your question",
+		"question_placeholder": "Write your question for a student in here",
+		"submit": "Submit your question"
+
 	}
 }

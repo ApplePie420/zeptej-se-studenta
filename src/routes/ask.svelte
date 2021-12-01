@@ -12,7 +12,16 @@
 	<Navigation />
 
 	<div class="container">
-		<Form />
+		<div class="grid-x">
+			<div class="cell large-2"></div>
+
+			<div class="cell large-8">
+				<Form />
+			</div>
+
+			<div class="cell large-2"></div>
+		</div>
+		
 	</div>
 {:else}
 	<p>Loading...</p>
