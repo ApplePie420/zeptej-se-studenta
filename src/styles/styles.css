@@ -1,9 +1,34 @@
-:root {
+/* :root {
 	--primary: hsl(0, 52%, 40%);
 	--accent: hsl(0, 52%, 30%);
 	--bg: hsl(0, 52%, 20%);
 	--primary-bg: hsl(0, 0%, 89%);
 	--secondary-bg: hsl(0, 0%, 94%);
+} */
+
+/* TODO(N3tt): Make the colors fit together xd */
+:root {
+	--primary-blue: #0E1577;
+	--primary-lighter: #1723cb;
+
+	--secondary-blue: #000249;
+	--secondary-lightert: #0004b6;
+
+	--primary-orange: #FC6718;
+
+	--secondary-orange: ##FF8239;
+
+	--primary-bg: hsl(0, 0%, 89%);
+	--secondary-bg: hsl(0, 0%, 94%);
+}
+
+body * {
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+.top-bar * {
+	font-family: 'Open Sans', sans-serif !important;
+	font-weight: bold;
 }
 
 .custom-card .main-text,
@@ -43,25 +68,26 @@
 }
 
 .localeSelector {
-	background-color: var(--primary);
-	border: 1px solid var(--accent);
+	background-color: var(--primary-blue);
+	border: 1px solid var(--secondary-blue);
+	color: white;
 }
 
 .localeSelector option {
-	background-color: var(--primary);
-	border: 1px solid var(--accent);
+	background-color: var(--primary-blue);
+	border: 1px solid var(--secondary-blue);
 }
 
 .localeSelector:active,
 option:active {
-	background-color: var(--primary);
-	border: 1px solid var(--accent);
+	background-color: var(--primary-blue);
+	border: 1px solid var(--secondary-blue);
 }
 
 .localeSelector:focus,
 option:focus {
-	background-color: var(--primary);
-	border: 1px solid var(--accent);
+	background-color: var(--primary-blue);
+	border: 1px solid var(--secondary-blue);
 }
 
 .custom-card {
@@ -72,7 +98,8 @@ option:focus {
 }
 
 .card-icon {
-	filter: invert(22%) sepia(20%) saturate(4159%) hue-rotate(330deg) brightness(108%) contrast(91%);
+	/* this is to make the exact color as is --secondary-orange but has to be done this way because SVG is cool and fun */
+	filter: invert(63%) sepia(93%) saturate(2981%) hue-rotate(337deg) brightness(111%) contrast(101%);
 	width: 64px;
 	height: 64px;
 }
@@ -92,16 +119,16 @@ option:focus {
 }
 
 .accent {
-	background-color: var(--primary);
+	background-color: var(--primary-blue);
 }
 
 .accent:hover {
-	background-color: var(--bg);
+	background-color: var(--primary-lighter);
 }
 
 div.top-bar,
 ul.menu {
-	background-color: var(--accent);
+	background-color: var(--secondary-blue);
 	color: white;
 }
 
@@ -110,7 +137,6 @@ div.top-bar ul.menu a {
 }
 
 body {
-	/* background-image: url("../../static/background-tile.png"); */
 	background-color: var(--secondary-bg);
 	background-size: 128px 128px;
 }
@@ -136,4 +162,9 @@ body {
 .notAnswered {
 	color: red;
 	text-decoration: underline;
+}
+
+.logo_image {
+	width: 2.5rem;
+	height: 2.5rem;
 }

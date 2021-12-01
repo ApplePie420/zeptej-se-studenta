@@ -8,7 +8,9 @@
 <div class="top-bar" id="realEstateMenu">
 	<div class="top-bar-left">
 		<ul class="menu" data-responsive-menu="accordion">
-			<li class="menu-text">{$_('general.title')}</li>
+			<li class="menu-text">
+				<img src="/logotypes/logo_white.png" class="logo_image" alt="Logo">
+			</li>
 			<li>
 				<a href="/">
 					<button class="button accent shadow radius">{$_('menu.index')}</button>
