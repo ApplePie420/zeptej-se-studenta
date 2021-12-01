@@ -207,7 +207,7 @@ body {
 	margin-left: 2.5rem;
 }
 
-.legal_design h5, h3, strong {
+.legal_design > h5, .legal_design > h3 {
 	color: var(--primary-blue);
 }
 

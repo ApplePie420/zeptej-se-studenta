@@ -15,7 +15,7 @@
 	<div class="cell small-2"></div>
 
 	<div class="cell small-8">
-		<div class="card radius">
+		<div class="card radius shadow">
 			<div class="card-divider orange-background white-text">
 				<h3>
 					<b>

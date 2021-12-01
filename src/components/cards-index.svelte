@@ -4,7 +4,7 @@
 
 <div class="grid-x">
 	<div class="cell large-3">
-		<div class="custom-card radius">
+		<div class="custom-card radius shadow">
 			<div class="main-text">
 				<img src="/cards-icons/home.svg" alt="home" class="card-icon" />
 				{$_('cards_categories.property')}
@@ -16,7 +16,7 @@
 	</div>
 
 	<div class="cell large-3">
-		<div class="custom-card radius">
+		<div class="custom-card radius shadow">
 			<div class="main-text">
 				<img src="/cards-icons/family.svg" alt="home" class="card-icon" />
 				{$_('cards_categories.family')}
@@ -28,7 +28,7 @@
 	</div>
 
 	<div class="cell large-3">
-		<div class="custom-card radius">
+		<div class="custom-card radius shadow">
 			<div class="main-text">
 				<img src="/cards-icons/law.svg" alt="home" class="card-icon" />
 				{$_('cards_categories.law')}
@@ -40,7 +40,7 @@
 	</div>
 
 	<div class="cell large-3">
-		<div class="custom-card radius">
+		<div class="custom-card radius shadow">
 			<div class="main-text">
 				<img src="/cards-icons/suitcase.svg" alt="home" class="card-icon" />
 				{$_('cards_categories.work')}
@@ -52,7 +52,7 @@
 	</div>
 
 	<div class="cell large-3">
-		<div class="custom-card radius">
+		<div class="custom-card radius shadow">
 			<div class="main-text">
 				<img src="/cards-icons/company.svg" alt="home" class="card-icon" />
 				{$_('cards_categories.contracts')}
@@ -64,7 +64,7 @@
 	</div>
 
 	<div class="cell large-3">
-		<div class="custom-card radius">
+		<div class="custom-card radius shadow">
 			<div class="main-text">
 				<img src="/cards-icons/argument.svg" alt="home" class="card-icon" />
 				{$_('cards_categories.neighbourhood')}
@@ -76,7 +76,7 @@
 	</div>
 
 	<div class="cell large-3">
-		<div class="custom-card radius">
+		<div class="custom-card radius shadow">
 			<div class="main-text">
 				<img src="/cards-icons/legal.svg" alt="home" class="card-icon" />
 				{$_('cards_categories.responsibility')}
@@ -88,7 +88,7 @@
 	</div>
 
 	<div class="cell large-3">
-		<div class="custom-card radius">
+		<div class="custom-card radius shadow">
 			<div class="main-text">
 				<img src="/cards-icons/placeholder.svg" alt="home" class="card-icon" />
 				{$_('cards_categories.placeholder')}

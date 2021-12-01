@@ -27,7 +27,7 @@
 </script>
 
 <div class="cell">
-	<div class="card radius">
+	<div class="card radius shadow">
 		<div class="qCard-question-section">
 			<div class="card-section radius">
 				<h5>
