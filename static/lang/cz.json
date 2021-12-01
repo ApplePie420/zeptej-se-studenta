@@ -183,5 +183,13 @@
 		"question": "Váš dotaz",
 		"question_placeholder": "Sem napište váš dotaz studentovi",
 		"submit": "Odeslat Váš dotaz"
+	},
+	"questions": {
+		"question": "Otázka",
+		"answer": "Odpověď",
+		"answer_by": "Zodpovědel",
+		"not_answered": "Tato otázka ještě nebyla zodpovězena!",
+		"info": "Dne {date} od Anonyma",
+		"add_answer": "Přidat odpověď"
 	}
 }

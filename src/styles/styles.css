@@ -16,7 +16,7 @@
 
 	--primary-orange: #FC6718;
 
-	--secondary-orange: ##FF8239;
+	--secondary-orange: #FF8239;
 
 	--primary-bg: hsl(0, 0%, 89%);
 	--secondary-bg: hsl(0, 0%, 94%);
@@ -173,6 +173,26 @@ body {
 	background-color: var(--primary-orange);
 }
 
+.orange-background-secondary {
+	background-color: var(--secondary-orange);
+}
+
+.blue-background {
+	background-color: var(--primary-blue);
+}
+
 .white-text {
 	color: white;
+}
+
+.orange-text {
+	color: var(--primary-orange);
+}
+
+.blue-text {
+	color: var(--primary-blue);
+}
+
+.answer-pre {
+	margin-left: 2.5rem;
 }

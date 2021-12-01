@@ -184,5 +184,13 @@
 		"question_placeholder": "Write your question for a student in here",
 		"submit": "Submit your question"
 
+	},
+	"questions": {
+		"question": "Question",
+		"answer": "Answer",
+		"answer_by": "Answered by",
+		"not_answered": "This question has not been answered yet!",
+		"info": "At {date} from Anonymous",
+		"add_answer": "Add an answer"
 	}
 }
