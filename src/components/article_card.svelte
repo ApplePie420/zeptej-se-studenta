@@ -4,49 +4,57 @@
 	export let date;
 	export let tags;
 	export let name;
-    export let url;
+	export let url;
 
 	let desc = text.split('\n')[0];
 
 	date = new Date(date).toISOString().substring(0, 10);
 </script>
 
-<div class="card">
-	<div class="card-divider">
-		<h3>
-			<b>
-				{name}
-			</b>
-		</h3>
-	</div>
-	<div class="card-section radius">
-		<i>
-			{desc}
+<div class="grid-x">
+	<div class="cell small-2"></div>
 
-			<a href="articles/{url}">Číst více...</a>
-		</i>
-	</div>
-	<div class="card-section radius">
-		<div class="grid-x">
-			<div class="cell small-6">
-				<strong>
-					{author}
-				</strong>
+	<div class="cell small-8">
+		<div class="card radius">
+			<div class="card-divider orange-background white-text">
+				<h3>
+					<b>
+						{name}
+					</b>
+				</h3>
 			</div>
+			<div class="card-section radius">
+				<i>
+					{desc}
 
-			<div class="cell small-6 text-right">
-				{date}
+					<a href="articles/{url}">Číst více...</a>
+				</i>
+			</div>
+			<div class="card-section radius">
+				<div class="grid-x">
+					<div class="cell small-6">
+						<strong>
+							{author}
+						</strong>
+					</div>
+
+					<div class="cell small-6 text-right">
+						{date}
+					</div>
+				</div>
+
+				<div class="grid-x">
+					<div class="cell">
+						<small>
+							<i>
+								{tags}
+							</i>
+						</small>
+					</div>
+				</div>
 			</div>
 		</div>
-
-		<div class="grid-x">
-			<div class="cell">
-				<small>
-					<i>
-						{tags}
-					</i>
-				</small>
-			</div>
-		</div>
 	</div>
+
+	<div class="cell small-2"></div>
 </div>

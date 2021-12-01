@@ -1,5 +1,10 @@
 <script context="module">
-	export async function load({ page, fetch, session, stuff }) {
+	export async function load({
+		page,
+		fetch,
+		session,
+		stuff
+	}) {
 		const url = '/api/articles';
 		const res = await fetch(url, session);
 		if (res.ok) {
@@ -19,17 +24,32 @@
 
 <script>
 	import ArticleCard from '../components/article_card.svelte';
+
+	import {
+		_,
+		setupI18n,
+		isLocaleLoaded,
+		locale
+	} from '$lib/i18n';
+	import Navigation from '../components/navigation.svelte';
+	import Form from '../components/form.svelte';
+
+	$: if (!$isLocaleLoaded) {
+		setupI18n({
+			withLocale: 'cz'
+		});
+	}
 	export let articles;
 </script>
 
-<h1>Articles:</h1>
+{#if $isLocaleLoaded}
+	<Navigation />
 
-<div class="container">
-	{#each articles.res as { name, text, author, tags, date, url }}
-		<div class="grid-x">
-			<div class="cell small-8 large-offset-2">
-				<ArticleCard {name} {text} {author} {tags} {date} {url} />
-			</div>
-		</div>
-	{/each}
-</div>
+	<div class="container">
+		{#each articles.res as { name, text, author, tags, date, url }}
+			<ArticleCard {name} {text} {author} {tags} {date} {url} />
+		{/each}
+	</div>
+{:else}
+	<p>Loading...</p>
+{/if}
