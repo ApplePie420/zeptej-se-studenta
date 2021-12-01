@@ -191,5 +191,8 @@
 		"not_answered": "Tato otázka ještě nebyla zodpovězena!",
 		"info": "Dne {date} od Anonyma",
 		"add_answer": "Přidat odpověď"
+	},
+	"error": {
+		"not-found": "Omlouváme se, ale stránka, kterou chcete navštívit, nebyla nalezena."
 	}
 }

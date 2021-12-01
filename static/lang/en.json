@@ -192,5 +192,8 @@
 		"not_answered": "This question has not been answered yet!",
 		"info": "At {date} from Anonymous",
 		"add_answer": "Add an answer"
+	},
+	"error": {
+		"not-found": "We are sorry, but the page you are looking for does not exist."
 	}
 }

@@ -210,3 +210,8 @@ body {
 .legal_design h5, h3, strong {
 	color: var(--primary-blue);
 }
+
+.error-message {
+	font-weight: bold;
+	font-size: 10rem;
+}
