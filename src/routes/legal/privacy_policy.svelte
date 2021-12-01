@@ -16,7 +16,7 @@
 		<div class="grid-x centered">
 			<div class="cell small-3"></div>
 
-			<div class="cell small-6">
+			<div class="cell small-6 legal_design">
 				<h3>
 					<strong>
 						{$_('privacy_policy.title')} 

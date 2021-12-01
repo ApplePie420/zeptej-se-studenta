@@ -206,3 +206,7 @@ body {
 .answer-pre {
 	margin-left: 2.5rem;
 }
+
+.legal_design h5, h3, strong {
+	color: var(--primary-blue);
+}
