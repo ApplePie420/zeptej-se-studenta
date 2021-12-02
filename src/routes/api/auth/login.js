@@ -16,8 +16,8 @@ export const post = async ({body}) => {
     ]);
 
     const userP = user[0][0];
-    console.log(userP.password);
-    console.log(stringHash(body.password));
+    // console.log(userP.password);
+    // console.log(stringHash(body.password));
 
     if(!userP) {
         return {

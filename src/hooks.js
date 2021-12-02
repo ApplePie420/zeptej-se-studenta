@@ -20,14 +20,17 @@ export const handle = async ({request, resolve}) => {
     }
 
     // search db for any user with the correct cookie
-    const userSession = await connection.promise().query("SELECT * FROM cookies WHERE cookieId = ?", [
+    var userSession = await connection.promise().query("SELECT * FROM cookies WHERE cookieId = ?", [
         cookies.session_id
     ]);
+
+    userSession = userSession[0][0];
 
     // if there is that user, authenticate him and pass the email to the context
     if(userSession) {
         request.locals.user.authenticated = true;
         request.locals.user.email = userSession.email;
+        request.locals.user.name = userSession.first_name;
     } else {
         request.locals.user.authenticated = false;
     }
@@ -51,5 +54,5 @@ export const getSession = async (request) => {
                 email: request.locals.user.email
             }
         }
-        : { };
+        : {};
 };

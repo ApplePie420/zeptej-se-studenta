@@ -43,3 +43,5 @@
     <p>{error}</p>
 {/if}
 <button on:click={login}>Login</button>
+
+Go see your <a href="/profile">profile</a>
