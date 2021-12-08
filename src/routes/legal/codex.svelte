@@ -11,17 +11,16 @@
 {#if $isLocaleLoaded}
 	<Navigation />
 
-
 	<div class="container">
 		<div class="grid-x centered">
-			<div class="cell small-3"></div>
+			<div class="cell small-3" />
 			<div class="cell small-6">
 				<h3>
 					<strong>
-						{$_('codex.title')} 
+						{$_('codex.title')}
 					</strong>
 				</h3>
-				
+
 				<p>
 					{$_('codex.student_advisor')}
 					<a href="/legal/tos">{$_('codex.tos.in')}.</a>
@@ -47,7 +46,7 @@
 							{$_('codex.enums.basic_values.title')}
 						</strong>
 					</li>
-					
+
 					<!-- TODO(n3tt): Re-do this, so it iterates over the object -->
 					<ol type="a">
 						<li>
@@ -184,11 +183,9 @@
 					</ol>
 				</ol>
 			</div>
-			<div class="cell small-3"></div>
+			<div class="cell small-3" />
 		</div>
-		
 	</div>
-	
 {:else}
 	<p>Loading...</p>
 {/if}

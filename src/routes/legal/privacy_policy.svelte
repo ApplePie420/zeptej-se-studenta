@@ -11,18 +11,17 @@
 {#if $isLocaleLoaded}
 	<Navigation />
 
-
 	<div class="container">
 		<div class="grid-x centered">
-			<div class="cell small-3"></div>
+			<div class="cell small-3" />
 
 			<div class="cell small-6 legal_design">
 				<h3>
 					<strong>
-						{$_('privacy_policy.title')} 
+						{$_('privacy_policy.title')}
 					</strong>
 				</h3>
-				
+
 				<p>
 					{$_('privacy_policy.main_text')}
 				</p>
@@ -34,7 +33,7 @@
 					</strong>
 				</h5>
 				<ol>
-					<li>		
+					<li>
 						{$_('privacy_policy.enums.1')}
 					</li>
 
@@ -49,7 +48,7 @@
 					</strong>
 				</h5>
 				<ol start="3">
-					<li>		
+					<li>
 						{$_('privacy_policy.enums.gathered_data.main_text_1')}
 						<a href="/legal/tos">{$_('links.tos.in')}</a>
 						{$_('privacy_policy.enums.gathered_data.main_text_2')}
@@ -177,7 +176,8 @@
 							</li>
 							<li>
 								{$_('privacy_policy.enums.23.enums.7')}
-								<a href="mailto:webmaster@zeptejtesestudenta.cz">webmaster e-mail</a>
+								<a href="mailto:webmaster@zeptejtesestudenta.cz">webmaster e-mail</a
+								>
 							</li>
 						</ul>
 					</li>
@@ -239,12 +239,10 @@
 					</li>
 				</ol>
 			</div>
-            
-			<div class="cell small-3"></div>
+
+			<div class="cell small-3" />
 		</div>
-		
 	</div>
-	
 {:else}
 	<p>Loading...</p>
 {/if}

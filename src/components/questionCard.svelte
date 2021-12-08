@@ -1,3 +1,11 @@
+<script context="module">
+	return {
+		props: {
+			isModerator: session.user.moderator
+		}
+	};
+</script>
+
 <script>
 	import { _, setupI18n, isLocaleLoaded, locale } from '$lib/i18n.js';
 
@@ -31,35 +39,35 @@
 		<div class="qCard-question-section">
 			<div class="card-section radius">
 				<h5>
-					<b>{$_("questions.question")}</b>
+					<b>{$_('questions.question')}</b>
 				</h5>
 			</div>
 		</div>
 
-			<div class="card-section">
-				<i>
-					<pre class="radius">
+		<div class="card-section">
+			<i>
+				<pre class="radius">
 						{question}
 					</pre>
-				</i>
+			</i>
 		</div>
 
 		{#if answer}
 			<div class="qCard-answer-section">
 				<div class="card-section radius">
 					<h5>
-						<b>{$_("questions.answer")}</b>
+						<b>{$_('questions.answer')}</b>
 					</h5>
 				</div>
 			</div>
 
-				<div class="card-section radius ">
-					<b>
-						<pre class="radius answer-pre">
+			<div class="card-section radius ">
+				<b>
+					<pre class="radius answer-pre">
 							{answer}
 						</pre>
-					</b>
-					<i class="answerAuthor"> {$_("questions.answer_by")}: {author} </i>
+				</b>
+				<i class="answerAuthor"> {$_('questions.answer_by')}: {author} </i>
 			</div>
 		{:else}
 			<div class="card-section radius qCard-answer">
@@ -70,16 +78,20 @@
 			</div>
 		{/if}
 		<div class="card-section radius qCard-footer">
-			{$_("questions.info", {values: {date: date}})}
+			{$_('questions.info', { values: { date: date } })}
 		</div>
 		{#if !answer}
-			<div class="card-section radius qCard-footer">
-				<button class="button button-s primary radius" href="#" on:click={showAnswerForm}
+			{#if isModerator}
+				<div class="card-section radius qCard-footer">
+					<button
+						class="button button-s primary radius"
+						href="#"
+						on:click={showAnswerForm}
 					>
-					{$_("questions.add_answer")}
-					</button
-				>
-			</div>
+						{$_('questions.add_answer')}
+					</button>
+				</div>
+			{/if}
 		{/if}
 		{#if showForm}
 			<div class="card-section radius qCard-footer">

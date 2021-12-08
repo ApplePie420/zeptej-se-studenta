@@ -11,22 +11,19 @@
 {#if $isLocaleLoaded}
 	<Navigation />
 
-    <div class="grid-x">
-        <div class="cell small-2"></div>
+	<div class="grid-x">
+		<div class="cell small-2" />
 
-        <div class="cell small-8 text-center">
-            <h1 class="orange-text error-message">
-                404
-            </h1>
-    
-            <p>
-                {$_("error.not-found")}
-            </p>
-        </div>
+		<div class="cell small-8 text-center">
+			<h1 class="orange-text error-message">404</h1>
 
-        <div class="cell small-2"></div>
-    </div>
-			
+			<p>
+				{$_('error.not-found')}
+			</p>
+		</div>
+
+		<div class="cell small-2" />
+	</div>
 {:else}
 	<p>Loading...</p>
 {/if}

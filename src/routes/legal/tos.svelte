@@ -11,20 +11,15 @@
 {#if $isLocaleLoaded}
 	<Navigation />
 
-
 	<div class="container">
 		<div class="grid-x centered">
-			<div class="cell small-3"></div>
+			<div class="cell small-3" />
 
-			<div class="cell small-6">
+			<div class="cell small-6" />
 
-			</div>
-            
-			<div class="cell small-3"></div>
+			<div class="cell small-3" />
 		</div>
-		
 	</div>
-	
 {:else}
 	<p>Loading...</p>
 {/if}
