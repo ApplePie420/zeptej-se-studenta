@@ -35,6 +35,8 @@ export const get = async (context) => {
 
     delete user.password;
 
+    connection.end();
+
     return {
         status: 200,
         body: user

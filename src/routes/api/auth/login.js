@@ -67,6 +67,8 @@ export const post = async ({body}) => {
         })
     };
 
+    connection.end();
+
     return {
         status: 200,
         headers,

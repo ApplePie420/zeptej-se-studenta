@@ -16,7 +16,7 @@ export const post = async ({body}) => {
 
     // add user to database
     const cookieId = uuidv4();
-    console.log(body.first_name);
+    // console.log(body.first_name);
     await connection.promise().query('INSERT INTO users (first_name, last_name, email, password) VALUES (?,?,?,?)', [
         body.first_name,
         body.last_name,
@@ -38,6 +38,8 @@ export const post = async ({body}) => {
             path: "/"
         })
     };
+
+    connection.end();
 
     return {
         status: 200,
