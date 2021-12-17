@@ -12,7 +12,7 @@
 </script>
 
 <div class="grid-x">
-	<div class="cell small-2"></div>
+	<div class="cell small-2" />
 
 	<div class="cell small-8">
 		<div class="card radius shadow">
@@ -56,5 +56,5 @@
 		</div>
 	</div>
 
-	<div class="cell small-2"></div>
+	<div class="cell small-2" />
 </div>

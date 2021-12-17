@@ -8,15 +8,15 @@
 
 /* TODO(N3tt): Make the colors fit together xd */
 :root {
-	--primary-blue: #0E1577;
+	--primary-blue: #0e1577;
 	--primary-lighter: #1723cb;
 
 	--secondary-blue: #000249;
 	--secondary-lightert: #0004b6;
 
-	--primary-orange: #FC6718;
+	--primary-orange: #fc6718;
 
-	--secondary-orange: #FF8239;
+	--secondary-orange: #ff8239;
 
 	--primary-bg: hsl(0, 0%, 89%);
 	--secondary-bg: hsl(0, 0%, 94%);
@@ -99,7 +99,8 @@ option:focus {
 
 .card-icon {
 	/* this is to make the exact color as is --secondary-orange but has to be done this way because SVG is cool and fun */
-	filter: invert(63%) sepia(93%) saturate(2981%) hue-rotate(337deg) brightness(111%) contrast(101%);
+	filter: invert(63%) sepia(93%) saturate(2981%) hue-rotate(337deg) brightness(111%)
+		contrast(101%);
 	width: 64px;
 	height: 64px;
 }
@@ -207,7 +208,8 @@ body {
 	margin-left: 2.5rem;
 }
 
-.legal_design > h5, .legal_design > h3 {
+.legal_design > h5,
+.legal_design > h3 {
 	color: var(--primary-blue);
 }
 

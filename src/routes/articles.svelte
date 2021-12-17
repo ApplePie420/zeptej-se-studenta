@@ -1,10 +1,5 @@
 <script context="module">
-	export async function load({
-		page,
-		fetch,
-		session,
-		stuff
-	}) {
+	export async function load({ page, fetch, session, stuff }) {
 		const url = '/api/articles';
 		const res = await fetch(url, session);
 		if (res.ok) {
@@ -25,12 +20,7 @@
 <script>
 	import ArticleCard from '../components/article_card.svelte';
 
-	import {
-		_,
-		setupI18n,
-		isLocaleLoaded,
-		locale
-	} from '$lib/i18n';
+	import { _, setupI18n, isLocaleLoaded, locale } from '$lib/i18n';
 	import Navigation from '../components/navigation.svelte';
 	import Form from '../components/form.svelte';
 

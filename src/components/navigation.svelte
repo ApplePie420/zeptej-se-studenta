@@ -9,7 +9,7 @@
 	<div class="top-bar-left">
 		<ul class="menu" data-responsive-menu="accordion">
 			<li class="menu-text">
-				<img src="/logotypes/logo_white.png" class="logo_image" alt="Logo">
+				<img src="/logotypes/logo_white.png" class="logo_image" alt="Logo" />
 			</li>
 			<li>
 				<a href="/">
@@ -42,7 +42,9 @@
 			/>
 
 			<li><a href="/auth/account">{$_('menu.my_account')}</a></li>
-			<li><a href="/auth/login" class="button accent shadow radius">{$_('menu.log_in')}</a></li>
+			<li>
+				<a href="/auth/login" class="button accent shadow radius">{$_('menu.log_in')}</a>
+			</li>
 		</ul>
 	</div>
 </div>
