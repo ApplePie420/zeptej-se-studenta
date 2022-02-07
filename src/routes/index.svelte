@@ -24,8 +24,6 @@
 	import Banner from '../components/banner.svelte';
 	import Cards from '../components/cards-index.svelte';
 
-	export let post;
-
 	$: if (!$isLocaleLoaded) {
 		setupI18n({ withLocale: 'cz' });
 	}

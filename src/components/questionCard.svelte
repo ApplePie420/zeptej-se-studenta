@@ -1,21 +1,13 @@
-<script context="module">
-	return {
-		props: {
-			isModerator: session.user.moderator
-		}
-	};
-</script>
-
 <script>
-	import { _, setupI18n, isLocaleLoaded, locale } from '$lib/i18n.js';
+import { session } from '$app/stores';
 
-	import Navigation from '../components/navigation.svelte';
-	import QuestionCard from '../components/questionCard.svelte';
+	import { _, setupI18n, isLocaleLoaded, locale } from '$lib/i18n.js';
 
 	$: if (!$isLocaleLoaded) {
 		setupI18n({ withLocale: 'cz' });
 	}
 
+	export let mod = $session.user.isModerator;
 	export let question;
 	export let date;
 	export let answer;
@@ -81,7 +73,7 @@
 			{$_('questions.info', { values: { date: date } })}
 		</div>
 		{#if !answer}
-			{#if isModerator}
+			{#if mod}
 				<div class="card-section radius qCard-footer">
 					<button
 						class="button button-s primary radius"

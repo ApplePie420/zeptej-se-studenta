@@ -16,7 +16,7 @@ export const post = async ({ body }) => {
 		.query('SELECT * FROM users WHERE email = ?', [body.email]);
 
 	const userP = user[0][0];
-	// console.log(userP.password);
+	// console.log(userP);
 	// console.log(stringHash(body.password));
 
 	if (!userP) {

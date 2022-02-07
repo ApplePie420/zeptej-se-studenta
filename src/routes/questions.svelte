@@ -9,9 +9,11 @@
 				}
 			};
 		}
-		return {
-			status: res.status,
-			error: new Error('could not load')
+		else {
+			return {
+				"status": res.status,
+				"error": new Error('could not load')
+			}
 		};
 	}
 </script>

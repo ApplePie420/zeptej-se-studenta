@@ -24,14 +24,21 @@ export const handle = async ({ request, resolve }) => {
 		.promise()
 		.query('SELECT * FROM cookies WHERE cookieId = ?', [cookies.session_id]);
 
-	userSession = userSession[0][0];
+	// query the actual users database for info about the user
+	var userData = await connection
+		.promise()
+		.query('SELECT * FROM users WHERE email = ?', [userSession[0][0].email]);
+	
+	userData = userData[0][0];
+
+	// console.log(userData.isModerator)
 
 	// if there is that user, authenticate him and pass the email to the context
-	if (userSession) {
+	if (userData) {
 		request.locals.user.authenticated = true;
-		request.locals.user.email = userSession.email;
-		request.locals.user.name = userSession.first_name;
-		request.locals.user.moderator = userSession.isModerator;
+		request.locals.user.email = userData.email;
+		request.locals.user.name = userData.first_name;
+		request.locals.user.moderator = userData.isModerator;
 	} else {
 		request.locals.user.authenticated = false;
 	}
@@ -53,8 +60,9 @@ export const getSession = async (request) => {
 				user: {
 					authenticated: true,
 					email: request.locals.user.email,
-					isModerator: request.locals.user.moderator
+					isModerator: request.locals.user.moderator,
+					name: request.locals.user.name
 				}
-		  }
+		}
 		: {};
 };
