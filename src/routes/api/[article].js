@@ -4,7 +4,6 @@ import { getArticle } from '$lib/mysql.js';
 export async function get({ params }) {
 	const { article } = params;
 
-	console.log(params);
 	return {
 		body: {
 			res: await getArticle(article)

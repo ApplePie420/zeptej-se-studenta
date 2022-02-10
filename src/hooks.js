@@ -20,18 +20,15 @@ export const handle = async ({ request, resolve }) => {
 	}
 
 	// search db for any user with the correct cookie
-	var userSession = await connection
-		.promise()
-		.query('SELECT * FROM cookies WHERE cookieId = ?', [cookies.session_id]);
-
-	// query the actual users database for info about the user
 	var userData = await connection
 		.promise()
-		.query('SELECT * FROM users WHERE email = ?', [userSession[0][0].email]);
-	
-	userData = userData[0][0];
+		.query('SELECT * FROM users WHERE cookieId = ?', [cookies.session_id]);
 
-	// console.log(userData.isModerator)
+	// var userData = await connection
+	// 	.promise()
+	// 	.query('SELECT * FROM users WHERE email = ?', [userSession[0][0].email]);
+
+	userData = userData[0][0];
 
 	// if there is that user, authenticate him and pass the email to the context
 	if (userData) {

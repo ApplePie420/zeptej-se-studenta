@@ -1,7 +1,9 @@
 <script>
 	import { _, setupI18n, isLocaleLoaded, locale } from '$lib/i18n';
-
 	import LocaleSelector from './languageSwitcher.svelte';
+	import { session } from '$app/stores';
+
+	export let mod = $session.user.isModerator;
 </script>
 
 <!-- Navigation -->
@@ -27,11 +29,13 @@
 					<button class="button accent shadow radius">{$_('menu.articles')}</button>
 				</a>
 			</li>
-			<!-- <li>
-				<a href="/questions">
-					<button class="button accent shadow radius">{$_('menu.questions')}</button>
-				</a>
-			</li> -->
+			{#if mod}
+				<li>
+					<a href="/questions">
+						<button class="button shadow radius">{$_('menu.questions')}</button>
+					</a>
+				</li>
+			{/if}
 		</ul>
 	</div>
 	<div class="top-bar-right">

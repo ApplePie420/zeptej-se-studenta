@@ -1,5 +1,5 @@
 <script>
-import { session } from '$app/stores';
+	import { session } from '$app/stores';
 
 	import { _, setupI18n, isLocaleLoaded, locale } from '$lib/i18n.js';
 

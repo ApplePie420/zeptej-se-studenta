@@ -69,7 +69,7 @@ export async function answerQuestion(data) {
 }
 
 export async function getArticle(articleURL) {
-	console.log(articleURL);
+	// console.log(articleURL);
 	// firstname=?,${[name]}
 	var SQL = `SELECT * FROM articles WHERE url='${[articleURL]}'`;
 	const result = await con.promise().query(SQL);

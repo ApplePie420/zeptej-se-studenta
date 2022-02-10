@@ -49,6 +49,10 @@ export const post = async ({ body }) => {
 		await connection
 			.promise()
 			.query('UPDATE cookies SET cookieId = ? WHERE email = ?', [cookieId, body.email]);
+
+		await connection
+			.promise()
+			.query('UPDATE users SET cookieId = ? WHERE email = ?', [cookieId, body.email]);
 	} else {
 		await connection
 			.promise()
