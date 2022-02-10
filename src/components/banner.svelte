@@ -4,18 +4,20 @@
 
 <div class="grid-x banner">
 	<div class="cell small-6">
-		<img src="/typek2.png" alt="typecek" width="500" height="400" />
+		<img src="/room.png" alt="typecek" width="500" height="400" />
 	</div>
 	<div class="cell small-6">
 		<h1>
-			{$_('general.title')}
+			<strong>
+				{$_('general.title')}
+			</strong>
 		</h1>
-		<h2>
+		<!-- <h2>
 			{$_('banner.second_heading')}
-		</h2>
-		<h4>
+		</h2> -->
+		<h5>
 			{$_('banner.description')}
-		</h4>
+		</h5>
 
 		<a href="/ask">
 			<button class="button accent shadow radius large">

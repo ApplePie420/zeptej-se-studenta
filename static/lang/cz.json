@@ -12,8 +12,8 @@
 		"questions": "Zodpovězené otázky"
 	},
 	"banner": {
-		"second_heading": "Druhý nadpis",
-		"description": "Popis projektu"
+		"second_heading": "",
+		"description": "Jsme skupina studentů z Právnické fakulty Univerzity Karlovy, kteří nabízejí dostupnou právní pomoc klientům z široké veřejnosti. Od prvního ročníku se angažujeme v mimouniverzitních právních aktivitách, pomocí kterých se snažíme dobrovolně pomáhat a uplatnit tak vědomosti, které jsme již nabyli při studi i při aplikaci platného práva v advokátních kancelářích. V rámci naší činnosti jsme schopni poskytnout pomoc ve všech oblastech práva. Rádi si vyslechneme Váš dotaz bez ohledu na to, kterého právního odvětví se týká. Podle našeho etického kodexu jsme vázáni mlčenlivostí stejně jako profesionální advokátní kanceláře, a pomoc poskytujeme jak fyzickým, tak právnickým osobám. Neváhejte nás kontaktovat přes email info@zeptejtesestudenta.cz."
 	},
 	"cards_categories": {
 		"family": "Rodina",
@@ -23,17 +23,17 @@
 		"work": "Pracovněprávní vztahy",
 		"law": "Trestní právo",
 		"responsibility": "Právni odpovědnost",
-		"placeholder": "Placeholder"
+		"other": "Ostatní"
 	},
 	"cards_description": {
-		"family": "Rodinné právo upravuje osobní a majetkové vztahy mezi členy rodiny",
-		"contracts": "Jaké jsou náležitosti jednotlivých druhů smluv a jaké práva a povinnosti z nich plynou?",
-		"property": "Ať už zvažujete prodej, koupi, pronájem nebo zřízení věcného břemene",
-		"neighbourhood": "Soused, se kterým nejste zadobře může být opravdový trn v oku.",
-		"work": "Jaké práva a povinnosti vznikají na straně zaměstnance a jaké na straně zaměstnavatele?",
-		"law": "Trestní právo je jedním z největších právních odvětví s bohatou historií. ",
-		"responsibility": "Určení právní odpovědnosti představuje zřejmě nejpodstatnější otázku.",
-		"placeholder": "Placeholder"
+		"family": "Potřebujete poradit ohledně své rodiny? Ptejte se nás!",
+		"contracts": "Hledáte informace ohledně smluv? Zeptejte se nás!",
+		"property": "Máte otázku ohledně stavby Vašeho domu? Zeptejte se nás!",
+		"neighbourhood": "Máte problémy se sousedem? Pomůžeme Vám je vyřešit!",
+		"work": "Jste součástí pracovněprávního vztahu a máte k tomu otázky? Ptejte se.",
+		"law": "Myslíte, že došlo k porušení práva? Napište nám.",
+		"responsibility": "Kdo je vlastně odpovědný? My známe odpověď!",
+		"other": "Váš dotaz nesedí do žádné z uvedených rubrik? Ptejte se zde!"
 	},
 	"codex": {
 		"title": "Etický kodex studentských poradců Zeptejte se Studenta",

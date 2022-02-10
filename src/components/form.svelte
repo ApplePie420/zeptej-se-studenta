@@ -30,6 +30,7 @@
 								placeholder="example@email.com"
 								class="radius"
 								id="email"
+								required
 							/>
 						</div>
 
@@ -43,6 +44,7 @@
 								placeholder="John Doe"
 								class="radius"
 								id="author"
+								required
 							/>
 						</div>
 					</div>
@@ -67,6 +69,7 @@
 								type="submit"
 								value={$_('form.submit')}
 								class="button accent shadow radius"
+								minlength="16"
 							/>
 						</div>
 					</div>

@@ -1,22 +1,3 @@
-<script context="module">
-	export async function load({ page, fetch, session, stuff }) {
-		const url = '/api/articles';
-		const res = await fetch(url, session);
-		if (res.ok) {
-			return {
-				props: {
-					post: await res.json()
-				}
-			};
-		}
-
-		return {
-			status: res.status,
-			error: new Error('could not load')
-		};
-	}
-</script>
-
 <script>
 	import { _, setupI18n, isLocaleLoaded, locale } from '$lib/i18n';
 

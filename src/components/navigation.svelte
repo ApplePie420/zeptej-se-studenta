@@ -27,11 +27,11 @@
 					<button class="button accent shadow radius">{$_('menu.articles')}</button>
 				</a>
 			</li>
-			<li>
+			<!-- <li>
 				<a href="/questions">
 					<button class="button accent shadow radius">{$_('menu.questions')}</button>
 				</a>
-			</li>
+			</li> -->
 		</ul>
 	</div>
 	<div class="top-bar-right">

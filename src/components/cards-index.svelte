@@ -91,10 +91,10 @@
 		<div class="custom-card radius shadow">
 			<div class="main-text">
 				<img src="/cards-icons/placeholder.svg" alt="home" class="card-icon" />
-				{$_('cards_categories.placeholder')}
+				{$_('cards_categories.other')}
 			</div>
 			<div class="hover-text">
-				{$_('cards_description.placeholder')}
+				{$_('cards_description.other')}
 			</div>
 		</div>
 	</div>
