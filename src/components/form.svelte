@@ -71,6 +71,11 @@
 								class="button accent shadow radius"
 								minlength="16"
 							/>
+
+							
+						</div>
+						<div class="cell">
+							<a href="/auth/login"><small>Log In</small></a>
 						</div>
 					</div>
 				</div>

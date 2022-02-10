@@ -41,10 +41,11 @@
 				on:locale-changed={(e) => setupI18n({ withLocale: e.detail })}
 			/>
 
-			<li><a href="/profile">{$_('menu.my_account')}</a></li>
-			<li>
+			<!-- <li><a href="/profile">{$_('menu.my_account')}</a></li> -->
+
+			<!-- <li>
 				<a href="/auth/login" class="button accent shadow radius">{$_('menu.log_in')}</a>
-			</li>
+			</li> -->
 		</ul>
 	</div>
 </div>
