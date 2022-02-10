@@ -19,7 +19,9 @@
 			<div class="card-divider orange-background white-text">
 				<h3>
 					<b>
-						{name}
+						<a href="articles/{url}" class="noURLstyle">
+							{name}
+						</a>
 					</b>
 				</h3>
 			</div>
@@ -58,3 +60,10 @@
 
 	<div class="cell small-2" />
 </div>
+
+<style>
+	.noURLstyle {
+		text-decoration: none;
+		color: white;
+	}
+</style>
